@@ -81,19 +81,32 @@
 .need-help-modal.deprecated .footer{background: rgb(34,35,36);border:1px solid rgb(0,100,100);border-top:none}
 
 /*Search popup*/
-.theme-dark .search-popout{background: rgba(20,20,20,.6);box-shadow:none;height:768px;overflow-y: scroll}
-.search-popout .search-query{align-items: center;color:white}
-.search-popout .option{background: rgb(0,150,150);border:3px solid rgb(0,100,100);border-radius:5px;margin:2px;overflow:visible}
-.search-popout .option:after{background: linear-gradient(90deg, rgb(0,150,150),rgb(0,100,100))}
-.search-popout .option.selected{background: rgb(0,100,100);border-color:rgb(0,150,150)}
-.search-popout .option.selected:after{background: linear-gradient(90deg, rgb(0,100,100),rgb(0,150,150))}
-.search-popout .results-group .header{color:white;padding:5px}
-.search-popout .option .filter,.search-popout .search-option .filter{color:white}
-.search-popout .option .answer,.search-popout .search-option .answer{color:rgb(0,50,50)}
-.search-popout .option .non-text{color:rgb(0,80,80)}
-.search-popout .results-group:before{display:none}
-.search-popout::-webkit-scrollbar-thumb{border:none;border-radius:20px}
-.search-popout::-webkit-scrollbar{background:none}
+.theme-dark .searchPopout-38pRYh{background: rgba(20,20,20,.6);border:none;border-radius:0;box-shadow:none;height:768px;overflow-y: scroll}
+.theme-dark .resultsGroup-2qzvNj:before{border-color:cyan}
+.searchQuery-3o17HL{align-items: center}
+.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1{color:white;padding:5px}
+.option-1MvVr1{background: rgb(0,150,150);border:3px solid rgb(0,100,100);border-radius:10px;margin:2px}
+.theme-dark .option-1MvVr1.selected-_bTXUG{background: rgb(0,100,100);border-color:rgb(0,150,150)}
+.theme-dark .option-1MvVr1 .filter-3kZ3tT{color:white}
+.theme-dark .option-1MvVr1 .answer-9L5NhD{color:rgb(0,240,240)}
+.theme-dark .option-1MvVr1 .nonText-1oayCI{color:rgb(0,220,220)}
+.searchPopout-38pRYh::-webkit-scrollbar-thumb{border:none;border-radius:20px}
+.searchPopout-38pRYh::-webkit-scrollbar{background:none}
+
+/*Calender*/
+.theme-dark .calendarPicker-16Q6sl .react-datepicker{background:transparent;width:280px;margin:1px;padding:5px}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous{background-color: rgb(0,150,150);border-color:rgb(0,100,100)}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header{background: rgb(0,150,150);border-color:rgb(0,100,100)}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day-name{color:white}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day{background: rgb(0,100,100);border-color:rgb(0,50,50)}
+.bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today:after{background: rgb(0,100,100)}
+.bd-blue .react-datepicker .react-datepicker__day:hover{background: rgb(0,100,100)}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day:hover{background: rgb(0,50,50)}
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover{background: rgb(0,150,150);color:white}
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz{border-color:rgb(0,150,150)}
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hint-21tC6F{color:rgb(0,150,150)}
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ{background: rgb(0,150,150);border:3px solid rgb(0,100,100);border-radius:5px}
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ:hover{background: rgb(0,100,100);border-color:rgb(0,150,150)}
 
 /*Search Result*/
 .theme-dark .search-results-wrap{margin-right:1px;background: transparent;border-left:1px solid rgb(0,150,150)}
