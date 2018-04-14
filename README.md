@@ -1,3 +1,2 @@
 **Chilled Cyan**
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+(<img src="https://i.imgur.com/XlKmkDz.png">)
