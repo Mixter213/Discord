@@ -396,7 +396,7 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .guilds-wrapper .guilds-add{background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .guilds-wrapper .guilds-add:hover{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .guilds-wrapper .guilds .friends-online{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
-
+.guilds-wrapper .guilds .guild .badge{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ))}
 
 /*Friends*/
 .theme-dark .headerBar-cxbhPD{background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 4% ))}
