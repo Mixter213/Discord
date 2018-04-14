@@ -1,2 +1,2 @@
 **Chilled Cyan**
-(<img src="https://i.imgur.com/XlKmkDz.png">)
+<img src="https://i.imgur.com/XlKmkDz.png">)
