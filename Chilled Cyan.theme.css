@@ -2,10 +2,11 @@
 
 
 :root{
-    --MainH:210;
+/*Main background(the default black)*/
+    --MainH:180;
     --MainS:3%;
     --MainL:15%;
-    
+/*Sub background(Cyan borders and misc background)*/
     --SubH:180;
     --SubS:100%;
     --SubL:50%;
@@ -434,6 +435,9 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 }
 
 /*Settings*/
+
+.theme-dark .ui-standard-sidebar-view .btn-close{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+.theme-dark .ui-standard-sidebar-view .btn-close:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .theme-dark .ui-standard-sidebar-view .sidebar-region{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% ))}
 .ui-standard-sidebar-view .sidebar-region .sidebar{padding:50px 0}
 #bd-settings-sidebar .ui-tab-bar-header,.theme-dark .header-1-f9X5{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
@@ -495,3 +499,5 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .ace-monokai .ace_gutter{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 .ui-standard-sidebar-view #bd-customcss-attach-controls button,.bd-detached-css-editor #bd-customcss-attach-controls button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 .bd-blue .bda-slist .bda-footer button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+
+
