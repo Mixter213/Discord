@@ -1,2 +1,3 @@
-**Chilled Cyan**
+# **Chilled Cyan**
+ A variabled theme that lets you edit what color the background is and what colors everything else will be.
 <img src="https://i.imgur.com/XlKmkDz.png">)
