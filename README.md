@@ -1,3 +1,3 @@
-Chilled Cyan
-
-<a href="https://i.imgur.com/XlKmkDz.png"><img src="https://i.imgur.com/XlKmkDzm.jpg"></a>
+**Chilled Cyan**
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
