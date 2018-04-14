@@ -1,2 +1,3 @@
 Chilled Cyan
-https://i.imgur.com/XlKmkDz.png
+
+<a href="https://i.imgur.com/XlKmkDz.png"><img src="https://i.imgur.com/XlKmkDzm.jpg"></a>
