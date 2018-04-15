@@ -505,7 +505,7 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .theme-dark .userSettingsAccount-2WOnTW .viewBody-14sCmR{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #bd-settingspane-container .ui-switch-item h3,.theme-dark .h5-3KssQU{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #bd-settingspane-container .ui-switch-item .style-description,.bda-slist .bda-description,.theme-dark .description-3MVziF,.theme-dark .labelDescriptor-1BebCl{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
-.theme-dark .cardPrimaryEditable-2IQ7-V{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 4% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+.theme-dark .cardPrimaryEditable-2IQ7-V{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 4% ))!important;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))!important}
 .theme-dark .title-3i-5G_{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 13% ))}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,.themeDefault-3M0dJU{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeDefault-3M0dJU.valueChecked-3Bzkbm{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 40% ))}
@@ -517,7 +517,9 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .theme-dark .select-3JqNgs .Select-option:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .theme-dark .select-3JqNgs .Select-control .Select-arrow{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% )) transparent transparent}
 .bd-blue *[style*="background-color:rgb(114,137,218)"]{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))!important}
+.bd-blue *[style*="border-color: rgb(114, 137, 218)"],
 .bd-blue *[style*="border-color:rgb(114,137,218)"]{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important;color:red!important}
+.spacing-3Nfz3_.marginBottom20-2Ifj-2 > div > div:nth-child(1) > label > div > svg > g > polyline,
 .content-column.default > div > div > div:nth-child(4) > div > div:nth-child(1) > label > div > svg > g > polyline{stroke:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .Select-control .Select-value{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
@@ -549,5 +551,3 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .ace-monokai .ace_gutter{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 .ui-standard-sidebar-view #bd-customcss-attach-controls button,.bd-detached-css-editor #bd-customcss-attach-controls button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 .bd-blue .bda-slist .bda-footer button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
-
-
