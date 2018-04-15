@@ -12,7 +12,6 @@
 }
 
 /*Titlebar*/
-.titleBar-3_fDwJ:before {content: ' ';display: block;height: 14px;width: 100vw;position: absolute;top:0;right: 0;z-index: 3000;-webkit-app-region: drag; }
 .titleBar-3_fDwJ{padding:9px 8px;position:absolute;top:0;right:0;-webkit-app-region:no-drag}
 .titleBar-3_fDwJ .winButton-U7zAqI{height:30px;width:30px;background:transparent no-repeat center;background-size:26px}
 .titleBar-3_fDwJ div:nth-of-type(2){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg")}
@@ -22,9 +21,8 @@
 .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe,.titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe,.headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe{margin-right:95px}
 .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after,.titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after,.headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after{content:' ';height:22px;width:1px;background-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 
-
 /*Sub Titlebar*/
-.theme-dark .title-qAcLxz{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ))}
+.theme-dark .title-qAcLxz{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));-webkit-app-region: drag;}
 .theme-dark .iconForeground-2c7s3m,.theme-dark .title-2Ul_Rx{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .theme-dark .search .search-bar{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .search .DraftEditor-root .public-DraftEditor-content,.search .DraftEditor-root .public-DraftEditorPlaceholder-root{padding:2% 5%}
@@ -47,7 +45,7 @@
 .item-1XYaYf:hover,.contextMenu-uoJTbz,.popouts,.tooltip{z-index:3004}
 
 /*popout Shadow effect*/
-.popout:not(.popout-top),#pubs-container,#voice-connection-popout,.incoming-call{outline:90vw solid hsla(0, 0%, 8%, 0.6);outline-offset:-1px;animation:backdrop 160ms ease-in}
+.popout:not(.popout-top),#pubs-container,#voice-connection-popout,.incoming-call{outline:90vw solid hsla(0, 0%, 8%, 0.6);outline-offset:-3px;animation:backdrop 160ms ease-in}
 
 /*Right click settings*/
 .theme-dark.contextMenu-uoJTbz{background:transparent}
@@ -137,37 +135,46 @@
 .downloadApps-16wF7o .footer-2QXDQY{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ))}
 
 /*UserPopout*/
-.theme-dark .headerNormal-3Vn9nT{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
-.headerNormal-3Vn9nT + .body-3ljq11,
-.headerNormal-3Vn9nT ~ .footer-2wFs91{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
-.theme-dark .quickMessage-OCo-Q0{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
-.bd-blue .tab-bar.TOP .tab-bar-item.selected{border-bottom:2px solid white!important;color:white!important}
-.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555{color:lightgray}
-.headerPlaying-2Q7mBy{background:hsla(227, 37%, 48%, 0.8)}
-.theme-dark .headerPlaying-2Q7mBy + .body-3ljq11,
-.theme-dark .headerPlaying-2Q7mBy ~ .footer-2wFs91{background:hsla(227, 37%, 48%, 0.8)}
-.headerFill-TTyrtz{background-color:transparent}
-.headerStreaming-lmgoma{background:hsla(262, 47%, 40%, 0.9)}
+.theme-dark .headerNormal-3Vn9nT{background: #202225}
+.theme-dark .headerNormal-3Vn9nT + .body-3ljq11,
+.theme-dark .headerNormal-3Vn9nT ~ .footer-2wFs91{background: #202225}
+
+.headerPlaying-2Q7mBy{background: #7289da}
+.headerPlaying-2Q7mBy + .body-3ljq11,
+.headerPlaying-2Q7mBy ~ .footer-2wFs91 {background: #7289da}
+
+.headerStreaming-lmgoma{background: #593695}
 .headerStreaming-lmgoma + .body-3ljq11,
-.headerStreaming-lmgoma ~ .footer-2wFs91{background-color:hsla(262, 47%, 40%, 0.9)}
-.headerSpotify-26yUf5{background:hsla(141, 73%, 42%, 0.9)}
+.headerStreaming-lmgoma ~ .footer-2wFs91 {background: #593695}
+
+.headerSpotify-26yUf5{background: #1db954}
 .headerSpotify-26yUf5 + .body-3ljq11,
-.headerSpotify-26yUf5 ~ .footer-2wFs91{background-color:hsla(141, 73%, 42%, 0.9)}
-.avatarHint-2ohlkz{border-radius:0;box-shadow:none;background: hsla(0, 0%, 8%, 0.6)}
-.maskProfile-MeBve8{-webkit-mask:none;border-radius:10px}
-.note-2AtC_s textarea{background: hsla(0, 0%, 8%, 0.6)}
+.headerSpotify-26yUf5 ~ .footer-2wFs91 {background: #1db954}
 
 /*UserProfile*/
-.theme-dark .topSectionNormal-2LlRG1{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
-.theme-dark .topSectionNormal-2LlRG1 + .body-3_tdh6{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
-.topSectionPlaying-3jAH9b{background:hsla(227, 37%, 48%, 0.8)}
-.topSectionPlaying-3jAH9b + .body-3_tdh6{background:hsla(227, 37%, 48%, 0.8)}
-.topSectionStreaming-3rIBIm{background:hsla(262, 47%, 40%, 0.9)}
-.topSectionStreaming-3rIBIm + .body-3_tdh6{background:hsla(262, 47%, 40%, 0.9)}
-.topSectionSpotify-3744IX{background:hsla(141, 73%, 42%, 0.9)}
-.topSectionSpotify-3744IX + .body-3_tdh6{background:hsla(141, 73%, 42%, 0.9)}
-.theme-dark .connectedAccount-3mKaTA{background: hsla(0, 0%, 8%, 0.6);border-color:hsla(0, 0%, 8%, 0.6)}
-.lookFilled-luDKDo.colorGreen-22At8E:hover{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 35% ))}
+.userPopout-11hFKo{box-shadow:none;border:1px solid black;border-radius:10px}
+
+.avatarHint-2ohlkz{border-radius:10px}
+.maskProfile-MeBve8{-webkit-mask:none}
+
+.activity-3NviKQ{background:transparent}
+
+.theme-dark .quickMessage-OCo-Q0{background:rgba(20,20,20,.2);border:none;border-radius:5px}
+.bodyTitle-18hsd9{color:rgba(250,250,250,.6)}
+
+.theme-dark .topSectionNormal-2LlRG1{background:#202225}
+.theme-dark .topSectionNormal-2LlRG1 + .body-3_tdh6{background:#202225}
+
+.topSectionPlaying-3jAH9b{background:#7289da}
+.topSectionPlaying-3jAH9b + .body-3_tdh6{background:#7289da}
+
+.topSectionStreaming-3rIBIm{background:#593695}
+.topSectionStreaming-3rIBIm + .body-3_tdh6{background:#593695}
+
+.topSectionSpotify-3744IX{background:#1db954}
+.topSectionSpotify-3744IX + .body-3_tdh6{background:#1db954}
+
+
 
 /*Search popup*/
 .search .DraftEditor-root .public-DraftEditor-content{overflow:hidden}
@@ -385,6 +392,7 @@
 .member-2FrNV0 .activity-1PAe08 strong{text-indent:0;display:block;line-height:12px}
 .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 4% ))}
 
+
 /*Channels*/
 .channels-3g2vYe{
     background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 4% ));
@@ -519,8 +527,7 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .bd-blue *[style*="background-color:rgb(114,137,218)"]{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))!important}
 .bd-blue *[style*="border-color: rgb(114, 137, 218)"],
 .bd-blue *[style*="border-color:rgb(114,137,218)"]{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important;color:red!important}
-.spacing-3Nfz3_.marginBottom20-2Ifj-2 > div > div:nth-child(1) > label > div > svg > g > polyline,
-.content-column.default > div > div > div:nth-child(4) > div > div:nth-child(1) > label > div > svg > g > polyline{stroke:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+.cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {stroke:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));}
 .Select-control .Select-value{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{height:178px;width:318px}
@@ -551,3 +558,5 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .ace-monokai .ace_gutter{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 .ui-standard-sidebar-view #bd-customcss-attach-controls button,.bd-detached-css-editor #bd-customcss-attach-controls button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 .bd-blue .bda-slist .bda-footer button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+
+
