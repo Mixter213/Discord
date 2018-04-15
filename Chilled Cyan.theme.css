@@ -103,6 +103,20 @@
 .need-help-modal.deprecated a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .need-help-modal.deprecated .footer{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-top:none}
 
+/*Create new server*/
+.create-guild-container.deprecated{background: transparent}
+.create-guild-container.deprecated .create-or-join .form-inner{background: transparent;border:none}
+.create-guild-container.deprecated .action{background:rgb(0,150,150);border:3px solid rgb(0,100,100)}
+.create-guild-container.deprecated .action.join .btn,
+.bd-blue .form .btn-primary{background: rgb(0,100,100);border:3px solid rgb(0,80,80)}
+.create-guild-container.deprecated .action:hover.join .btn,
+.create-guild-container.deprecated .action:hover.create .btn{background: rgb(0,80,80)!important;border-color: rgb(0,100,100)}
+.bd-blue .form header{color:white}
+.bd-blue .create-guild-container .action.create .action-header{color:white}
+.create-guild-container.deprecated .action.join .action-header{color:white}
+.create-guild-container.deprecated .action .action-body{color:white}
+.create-guild-container.deprecated .create-or-join .actions .or{display:none}
+
 /*Invite*/
 .theme-dark .inviteRow-1V_uzW:hover{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 6% ))}
 .lookFilled-luDKDo.colorGreen-22At8E{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
