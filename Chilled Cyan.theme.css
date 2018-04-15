@@ -13,6 +13,7 @@
 }
 
 /*Titlebar*/
+.titleBar-3_fDwJ:before {content: ' ';display: block;height: 14px;width: 100vw;position: absolute;top:0;right: 0;z-index: 3000;-webkit-app-region: drag; }
 .titleBar-3_fDwJ{padding:9px 8px;position:absolute;top:0;right:0;-webkit-app-region:no-drag}
 .titleBar-3_fDwJ .winButton-U7zAqI{height:30px;width:30px;background:transparent no-repeat center;background-size:26px}
 .titleBar-3_fDwJ div:nth-of-type(2){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg")}
