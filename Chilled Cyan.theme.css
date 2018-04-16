@@ -12,6 +12,7 @@
 }
 
 /*Titlebar*/
+.titleBar-3_fDwJ:before {content: ' ';display: block;height: 14px;width: 100vw;position: absolute;top:-1px;right:0;z-index:3000;-webkit-app-region: drag}
 .titleBar-3_fDwJ{padding:9px 8px;position:absolute;top:0;right:0;-webkit-app-region:no-drag}
 .titleBar-3_fDwJ .winButton-U7zAqI{height:30px;width:30px;background:transparent no-repeat center;background-size:26px}
 .titleBar-3_fDwJ div:nth-of-type(2){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg")}
@@ -22,7 +23,7 @@
 .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after,.titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after,.headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after{content:' ';height:22px;width:1px;background-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 
 /*Sub Titlebar*/
-.theme-dark .title-qAcLxz{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));-webkit-app-region: drag;}
+.theme-dark .title-qAcLxz{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ))}
 .theme-dark .iconForeground-2c7s3m,.theme-dark .title-2Ul_Rx{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .theme-dark .search .search-bar{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .search .DraftEditor-root .public-DraftEditor-content,.search .DraftEditor-root .public-DraftEditorPlaceholder-root{padding:2% 5%}
@@ -96,7 +97,7 @@
 
 /*Help*/
 .bd-blue .need-help-modal .header{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-bottom:none}
-.need-help-modal.deprecated .header input[type=text]{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));box-shadow:none;color:white;border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+.need-help-modal.deprecated .header input[type=text]{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));box-shadow:none;color:white;border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 .form-deprecated .form-inner,.form.deprecated .form-inner{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .need-help-modal.deprecated a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .need-help-modal.deprecated .footer{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 1% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-top:none}
