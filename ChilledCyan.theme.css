@@ -48,10 +48,10 @@
 div, span:not(.spinner-item){ backface-visibility: hidden;}
 
 /*Tooltip & Popups Z-index*/
-.item-1XYaYf:hover,.contextMenu-uoJTbz,.popouts,.tooltip{z-index:3004}
+.popouts-1TN9u9,.item-1XYaYf:hover,.contextMenu-uoJTbz,.tooltip{z-index:3004}
 
 /*popout Shadow effect*/
-.popout:not(.popout-top),#pubs-container,#voice-connection-popout,.incoming-call{outline:90vw solid hsla(0, 0%, 8%, 0.6);outline-offset:1px;animation:backdrop 160ms ease-in}
+.popout-2RRwAO:not(.popout-top),#pubs-container,#voice-connection-popout,.incoming-call{outline:90vw solid hsla(0, 0%, 8%, 0.6);outline-offset:1px;animation:backdrop 160ms ease-in}
 
 /*Right click settings*/
 .theme-dark.contextMenu-uoJTbz{background:transparent}
@@ -230,12 +230,12 @@ div, span:not(.spinner-item){ backface-visibility: hidden;}
 .theme-dark .search-results-wrap .action-buttons .jump-button{background:transparent;border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-radius:5px}
 .theme-dark .search-results-wrap .action-buttons .jump-button:hover{background:transparent;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .theme-dark .search-results-wrap .search-header .spinner .path{stroke:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons{background:transparent;box-shadow:none}
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+.messages-popout .message-group:hover .action-buttons{background:transparent;box-shadow:none}
+.messages-popout .message-group:hover .action-buttons .jump-button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+.messages-popout .message-group .action-buttons .jump-button{transition:none}
+.messages-popout .message-group .action-buttons .jump-button:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-track{background:transparent}
-
 /*Recent Mentions*/
 .popout.popout-bottom-left.no-arrow,.popout.popout-bottom-right.no-arrow,.popout.popout-bottom.no-arrow{margin-top:12px}
 .theme-dark .popout .messages-popout-wrap{background:hsla(0, 0%, 8%, 0.6);border:none;box-shadow:none}
@@ -569,3 +569,5 @@ div.flexChild-1KGW5q > div > header > svg > g > path:nth-child(2){stroke:hsl(var
 .ace-monokai .ace_gutter{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 .ui-standard-sidebar-view #bd-customcss-attach-controls button,.bd-detached-css-editor #bd-customcss-attach-controls button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 .bd-blue .bda-slist .bda-footer button{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+
+
