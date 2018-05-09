@@ -101,7 +101,8 @@
 .icon-sxakjD {margin-right:0px; opacity: 0}
 #app-mount .channelNotice-1-XFjC,#ap-mount .quickswitcher-35bYg4{background-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));box-shadow:none}
 #app-mount .btn-11C5_u{background-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 35% ))}
-
+.unread-1xRYoj{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+.unread-1xRYoj:hover{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 
 /* chat */
 .base-3AoPqv{border-radius:0}
