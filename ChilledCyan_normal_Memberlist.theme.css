@@ -1,16 +1,16 @@
 /*//META{"name":"ChilledCyan_normal_Memberlist","description":"A Mixter Theme","author":"Mixter213","version":"2.0"}*//**/
 
 :root{
-	/*Main background(the default black)*/
-		--MainH:180;
-		--MainS:3%;
-		--MainL:15%;
-	/*Sub background(Cyan borders and misc background)*/
-		--SubH:180;
-		--SubS:100%;
-		--SubL:50%;
-	}
-	
+/*Main background(the default black)*/
+	--MainH:180;
+	--MainS:3%;
+	--MainL:15%;
+/*Sub background(Cyan borders and misc background)*/
+	--SubH:180;
+	--SubS:100%;
+	--SubL:50%;
+}
+
 /* transparency */
 .guilds-wrapper,#app-mount .layer-3QrUeG,#app-mount .layers-3iHuyZ,#app-mount .title-3qD0b-,#app-mount .messages-wrapper,#app-mount .noChannel-Z1DQK7,#app-mount .headerBar-UHpsPw,#app-mount #friends,#app-mount #friends .friend-table-add-header,#app-mount .friends-table,#app-mount .content,#app-mount .chat,#app-mount .chat form,#app-mount .typing-2GQL18,#app-mount .messages .divider span,#app-mount .messages .divider:before,.container-PNkimc,#app-mount .ui-standard-sidebar-view .sidebar-region,#app-mount .ui-standard-sidebar-view .content-region{background:transparent}
 
