@@ -24,7 +24,7 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 .themeDark-3Ap_7i .note-450gs3{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 
-/* title bar */
+/* title bar (modified .intrnl's mini theme) */
 .wordmark-2iDDfm,.winButton-iRh8-Z svg{display:none}
 .titleBar-AC4pGV:before {position:absolute;content:"";height:15px;width:100vw;top:-3px;right:0;-webkit-app-region:drag}
 .titleBar-AC4pGV{position:absolute;padding:9px;top:0;right:0;-webkit-app-region:no-drag;z-index:2}
@@ -122,8 +122,8 @@
 #app-mount .typing-2GQL18 span {color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 0% ))}
 .chat .new-messages-bar{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 15% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));border-top:none}
 #app-mount .chat .new-messages-bar:hover{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 15% ))}
-.theme-dark .chat .jump-to-present-bar{white-space:nowrap;height:40px;width:120px;left:85%;background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-bottom:none;transition:.4s}
-.theme-dark .chat .jump-to-present-bar:hover{height:60px;background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+#app-mount .chat .jump-to-present-bar{white-space:nowrap;height:40px;width:120px;left:85%;background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-bottom:none;transition:.4s}
+#app-mount .chat .jump-to-present-bar:hover{height:60px;background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .chat .jump-to-present-bar .spinner{padding-left:30%}
 .chat .jump-to-present-bar button:first-child{display:none}
 .chat .jump-to-present-bar button:last-child{color:white}
@@ -136,7 +136,7 @@
 #app-mount .message-group-blocked,#app-mount .message-group-blocked-btn{background: transparent;border:none;box-shadow:none}
 
 .app .welcomeMessage-3_Mcht h1,.welcomeMessage-3_Mcht p{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
-.theme-dark .welcomeMessage-3_Mcht a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 0% ))}
+#app-mount .welcomeMessage-3_Mcht a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 0% ))}
 
 /* memberlist */
 .membersWrap-2h-GB4{border-left:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
@@ -213,7 +213,7 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 .resultsGroup-r_nuzN .header-2N-gMV{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-radius:10px;padding:5px 15px}
 .resultsGroup-r_nuzN .searchClearHistory-2cSSMO, .resultsGroup-r_nuzN .searchLearnMore-3SQUAj{top:15px}
 #app-mount .option-96V44q.selected-rZcOL-{background:transparent;border-left:5px solid;border-right:5px solid;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
-.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+#app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .searchPopout-1vUlP3::-webkit-scrollbar{width:0}
 
 #app-mount .calendarPicker-2yf6Ci .react-datepicker{background:transparent}
@@ -268,11 +268,11 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,#bd-settings-sidebar .ui-tab-bar-item:hover{background:transparent;border-left:5px solid;border-right:5px solid;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 .side-8zPYf6 .itemSelected-1qLhcL,#bd-settings-sidebar .ui-tab-bar-item.selected{background:transparent;border-left:5px solid;border-right:5px solid;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 
-#bd-settingspane-container h2.ui-form-title,.theme-dark .defaultColor-1_ajX0{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ))}
-#bd-settingspane-container .ui-switch-item h3,.theme-dark .h5-18_1nd{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
-#bd-settingspane-container .ui-switch-item .style-description,.theme-dark .title-31JmR4,.theme-dark .primary-jw0I4K,.theme-dark .description-3_Ncsb{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+#bd-settingspane-container h2.ui-form-title,#app-mount .defaultColor-1_ajX0{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ))}
+#bd-settingspane-container .ui-switch-item h3,#app-mount .h5-18_1nd{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+#bd-settingspane-container .ui-switch-item .style-description,#app-mount .title-31JmR4,#app-mount .primary-jw0I4K,#app-mount .description-3_Ncsb{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 
-.theme-dark .cardPrimaryEditable-3KtE4g{background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
+#app-mount .cardPrimaryEditable-3KtE4g{background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeDefault-24hCdX.valueChecked-m-4IJZ{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,.size-3rFEHg{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 35% ));border-radius:5px}
