@@ -2,15 +2,16 @@
 
 :root{
 /*Main background(the default black)*/
-	--MainH:180;
-	--MainS:3%;
+	--MainH:190;
+	--MainS:5%;
 	--MainL:15%;
+
 /*Sub background(Cyan borders and misc background)*/
-	--SubH:180;
+	--SubH:190;
 	--SubS:100%;
 	--SubL:50%;
 }
-
+	
 /* transparency */
 .guilds-wrapper,#app-mount .layer-3QrUeG,#app-mount .layers-3iHuyZ,#app-mount .title-3qD0b-,#app-mount .messages-wrapper,#app-mount .noChannel-Z1DQK7,#app-mount .headerBar-UHpsPw,#app-mount #friends,#app-mount #friends .friend-table-add-header,#app-mount .friends-table,#app-mount .content,#app-mount .chat,#app-mount .chat form,#app-mount .typing-2GQL18,#app-mount .messages .divider span,#app-mount .messages .divider:before,.container-PNkimc,#app-mount .ui-standard-sidebar-view .sidebar-region,#app-mount .ui-standard-sidebar-view .content-region{background:transparent}
 
@@ -32,8 +33,9 @@
 .titleBar-AC4pGV div:nth-of-type(2){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg")}
 .titleBar-AC4pGV div:nth-of-type(3){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041064943617/btn-maximize.svg")}
 .titleBar-AC4pGV div:nth-of-type(4){background-image:url("https://cdn.discordapp.com/attachments/406778960484237322/406779041409138688/btn-minimize.svg")}
-.title-3qD0b-, .titleCall-_b9o8P{margin-right:95px}
-.title-3qD0b-:after, .titleCall-_b9o8P:after{content:"";height:22px;width:1px;background-color:hsla(0, 0%, 100%, 0.1)}
+.title-3qD0b- .flex-1xMQg5.horizontal-1ae9ci,.titleCall-_b9o8P .flex-1xMQg5.horizontal-1ae9ci,.headerBar-UHpsPw .flex-1xMQg5.horizontal-1ae9ci{margin-right:98px}
+.title-3qD0b- .flex-1xMQg5.horizontal-1ae9ci:after,.titleCall-_b9o8P .flex-1xMQg5.horizontal-1ae9ci:after,.headerBar-UHpsPw .flex-1xMQg5.horizontal-1ae9ci:after{background-color:hsla(0, 0%, 100%, 0.1);content:"";height:22px;width:1px}
+
 #app-mount .iconForeground-3y9f0B, #app-mount .title-1aVOXw{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #app-mount .search .search-bar{background-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 2% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 
@@ -43,11 +45,20 @@
 
 /* Avatar and status */
 #app-mount .mask-3OgeRz{-webkit-mask: none;mask: none}
-.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge,.image-33JSyf{border-radius:10px}
-#app-mount .status,.status-2s6iDp{border-radius:0}
+
+.image-33JSyf{border-radius:10px}
+
+#app-mount .status-2s6iDp{background-color:transparent;border:3px solid;border-radius:10px;width:27px;height:27px;bottom:-.5px;right:-.5px}
+#app-mount .online-2S838R{border-color:#43b581}
+#app-mount .idle-3DEnRT{border-color:#faa61a}
+#app-mount .dnd-1_xrcq{border-color:#f04747}
+#app-mount .streaming-2_dnHe{border-color:#593695}
 
 /* popout shadow effect */
 .popout-3sVMXz:not(.popouts-3dRSmE) {outline: 90vw solid hsla(0, 0%, 0%, 0.6)}
+
+/* Flickering fix */
+.chat span {backface-visibility: hidden}
 
 /* popout , menu & misc menu */
 #app-mount .contextMenu-HLZMGh{background: transparent}
@@ -71,13 +82,12 @@
 /* tooltips */
 .tooltip.tooltip-black,
 .tooltip.tooltip-red{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
-.tooltip.tooltip-black.tooltip-top:after{border-top-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
-.tooltip.tooltip-black.tooltip-left:after{border-left-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
-.tooltip.tooltip-black.tooltip-bottom:after{border-bottom-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
-.tooltip.tooltip-black.tooltip-right:after,.tooltip.tooltip-red.tooltip-right:after{border-right-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
+.tooltip.tooltip-black.tooltip-top::after{border-top-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
+.tooltip.tooltip-black.tooltip-left::after{border-left-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
+.tooltip.tooltip-black.tooltip-bottom::after{border-bottom-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
+.tooltip.tooltip-black.tooltip-right::after,.tooltip.tooltip-red.tooltip-right::after{border-right-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
 
 /* guild list */
-.chat {z-index:1}
 .guilds-wrapper{z-index:3;background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));width:72px}
 .guilds-wrapper .guilds .guild .guild-inner{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 0% ))!important;border-radius:10px!important;transition:.3s}
 .guilds-wrapper .guilds .guild .guild-inner:hover{border-radius:20px!important}
@@ -115,7 +125,7 @@
 #app-mount .message-group .comment .markup .mention{background:transparent;color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ))}
 #app-mount .message-group .comment .markup .mention:hover{background:transparent;color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #app-mount .message-group .mentioned .message-text{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 40% ))}
-.message-group .mentioned .message-text:after{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+.message-group .mentioned .message-text::after{border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 #app-mount .message-group a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 #app-mount .message-group h2 .timestamp{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #app-mount .typing-2GQL18{bottom:100%;width:auto}
@@ -139,31 +149,30 @@
 #app-mount .welcomeMessage-3_Mcht a{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 0% ))}
 
 /* memberlist */
-.membersWrap-2h-GB4{width:90px;min-width:unset;border-left:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));transition:.4s}
+.membersWrap-2h-GB4{width:90px;min-width:unset;transition: .3s;border-left:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
 .membersWrap-2h-GB4:hover{width:240px}
-.membersWrap-2h-GB4 .members-1998pB{width:240px;height:calc(100% + 460px);padding-bottom:470px}
+.membersWrap-2h-GB4 .members-1998pB{width:240px;height:calc(100% + 30px);padding-bottom:40px}
 .membersGroup-v9BXpm{
-	width:100px;
+    width:80px;
 	height:auto;
-	white-space:normal;
-	text-align:center;
-	border-radius:0;
-	background: hsla(0, 0%, 0%, 0.1);
-	transition:.4s;
-	transform:scale(.7) translateX(-20%) perspective(1px);
-	box-sizing: content-box;
+    font-size:10px;
 	line-height:13px;
-	margin:1% 5%;
-	padding:1% 0
+	white-space: normal;
+	text-align:center;
+	transition:.3s;
+	box-sizing: content-box;
+	background: hsla(0, 0%, 0%, 0.1);
+	border-radius:10px;
+	margin:2% 5px;
+	padding:2% 0
 }
-.members-1998pB:hover .membersGroup-v9BXpm{transform:scale(1);padding:1% 25%}
-.member-3W1lQa{border-radius:0;margin:1% 5% 1% 10%}
-#app-mount .member-3W1lQa.popout-open .content-OzHfo4,#app-mount .members-1998pB,#app-mount .member-3W1lQa:hover .content-OzHfo4{background:hsla(0, 0%, 0%, 0.2)}
+.members-1998pB:hover .membersGroup-v9BXpm{padding:2% 30%}
+#app-mount .members-1998pB,#app-mount .content-OzHfo4:hover,#app-mount .member-3W1lQa.popout-open .content-OzHfo4{background:hsla(0, 0%, 0%, 0.1)}
+.member-3W1lQa{margin:0 20px}
 .memberInner-2CPc3V{width:140px;display:none}
 .membersWrap-2h-GB4:hover .memberInner-2CPc3V{display:block}
-.member-3W1lQa .activityText-sLG0UL{text-indent:-9999px;line-height:3px}
-.member-3W1lQa .activity-1IYsbk strong{text-indent:0;display:block;line-height:12px}
-
+.member-3W1lQa .activityText-sLG0UL{text-indent:-10vw;line-height:5px}
+.member-3W1lQa .activity-1IYsbk strong{text-indent:0;display:block;line-height:10px}
 
 /*profile popout*/
 .avatarHint-1qgaV3 {border-radius: 10px}
@@ -231,7 +240,7 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__current-month{background:transparent}
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__header{background:transparent}
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation{background-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 35% ))}
-#app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected::after{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 #app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
 
 /* Search Results */
@@ -241,7 +250,7 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 #app-mount .search-results-wrap .channel-separator .channel-name{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 #app-mount .search-results-wrap .search-result:before{background:linear-gradient(0deg,transparent,hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% )))}
 #app-mount .search-results-wrap .search-result.expanded .search-result-message.hit,#app-mount .search-results-wrap .search-result .search-result-message.hit{background: hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ));box-shadow:0 0 10px 6px hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 3% ))}
-#app-mount .search-results-wrap .search-result:after{background:linear-gradient(0deg,hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% )),transparent)}
+#app-mount .search-results-wrap .search-result::after{background:linear-gradient(0deg,hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 5% )),transparent)}
 #app-mount .search-results-wrap .action-buttons .jump-button{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 
 /* need help */
@@ -269,6 +278,7 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))!important}
 
 /* settings */
+.ui-standard-sidebar-view{z-index:1}
 .ui-standard-sidebar-view, .ui-standard-sidebar-view *{box-sizing: content-box}
 #app-mount .header-2RyJ0Y,#bd-settings-sidebar .ui-tab-bar-header{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));color:white;border:3px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ));border-radius:10px;text-align: center;margin:2px;padding:3px;white-space: normal}
 .side-8zPYf6 .item-PXvHYJ,#bd-settings-sidebar .ui-tab-bar-item{background:transparent;color:white;text-align: center;margin:2px;padding:3px;white-space: normal}
@@ -283,7 +293,7 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeDefault-24hCdX.valueChecked-m-4IJZ{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,.size-3rFEHg{background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 35% ));border-radius:5px}
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before,.size-3rFEHg:after{border-radius:5px}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before,.size-3rFEHg::after{border-radius:5px}
 
 #app-mount .ui-standard-sidebar-view .btn-close{border-radius:10px;position:fixed;border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 25% ))}
 #app-mount .ui-standard-sidebar-view .btn-close:hover{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ));border-color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
@@ -292,3 +302,20 @@ img[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] + div:before {content:""
 
 .ace-monokai,.ace-monokai .ace_gutter,#app-mount #bd-customcss-attach-controls{background:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 2% ));box-shadow:none}
 .ace-monokai .ace_marker-layer .ace_selection{background: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
+
+
+
+
+.avatar-large[style*="214478470972047360"] ~ .comment .username-wrapper::after
+{
+	content: "Theme Dev";
+	background:hsla(0, 0%, 0%, 0.1);
+	color: hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 10% ));
+	border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ));
+	border-radius:2px;
+	font-size:10px;
+	margin-left:5px;
+	vertical-align:bottom;
+	line-height:16px;
+	font-weight:500;
+}
