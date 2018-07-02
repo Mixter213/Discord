@@ -39,6 +39,8 @@
 #app-mount .iconForeground-3y9f0B, #app-mount .title-1aVOXw{color:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 20% ))}
 #app-mount .search .search-bar{background-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 2% ));border:1px solid hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))}
 
+.titleWrapper-1l0xT9{z-index:1}
+
 /* scrollbar */
 #app-mount *::-webkit-scrollbar,#app-mount *::-webkit-scrollbar-track,#app-mount *::-webkit-scrollbar-track-piece {background:transparent!important;border:none!important}
 #app-mount *::-webkit-scrollbar-thumb {background:hsl(var(--SubH),var(--SubS),calc(var(--SubL) - 30% ))!important;border-color:hsl(var(--MainH),var(--MainS),calc(var(--MainL) - 0% ))!important}
