@@ -1,3 +1,5 @@
-<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 100 100 L 200 200 H 10 V 40 H 70" fill="#59fa81" stroke="#d85b49" stroke-width="3"  />
+
+<svg height="300" width="300" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 100 100 L 200 200 H 10 V 40 H 70"
+        fill="#59fa81" stroke="#d85b49" stroke-width="3" />
 </svg>
