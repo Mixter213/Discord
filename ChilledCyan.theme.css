@@ -27,8 +27,8 @@
 
 /* TitleBar */
 .wordmark-2iDDfm,.winButton-iRh8-Z svg {display:none}
-.titleBar-AC4pGV{position: absolute;top:0;right:0;height:48px;margin:0;padding:0;-webkit-app-region:no-drag;border-bottom:1px solid hsla(0,0%,0%,.2);background:rgb(24,25,26)}
-.winButton-iRh8-Z{top:25%}
+.titleBar-AC4pGV,.macButton-c_Adir{position: absolute;top:0;right:0;height:48px;margin:0;padding:0;-webkit-app-region:no-drag;border-bottom:1px solid hsla(0,0%,0%,.2);background:rgb(24,25,26)}
+.winButton-iRh8-Z,.macButton-c_Adir{top:25%}
 .winButtonClose-1HsbF-,.macButtonClose-MwZ2nf {background: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041270464522/btn-close.svg") center}
 .winButtonMinMax-PBQ2gm,.macButtonMaximize-2FMHAO {background: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041064943617/btn-maximize.svg") center}
 .winButtonMinMax-PBQ2gm:last-child,.macButtonMinimize-3EJ6wo {background: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041409138688/btn-minimize.svg") center}
