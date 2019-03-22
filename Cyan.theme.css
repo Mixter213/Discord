@@ -1,5 +1,7 @@
 /*//META{"name":"ChilledCyan","description":"A Mixter Theme","author":"Mixter213","version":"2.0"}*//**/
 
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
+
 :root{
 /*Main background(the default black)*/
 	--MainH:190;
