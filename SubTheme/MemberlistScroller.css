@@ -1,6 +1,6 @@
-.membersWrap-2h-GB4{min-width:unset;width:90px;transition: .2s}
-.membersWrap-2h-GB4:hover{width:240px}
-.members-1998pB {height:108%;padding-top:5px;padding-bottom:70px}
+.membersWrap-2h-GB4{min-width:unset}
+.members-1998pB {height:108%;padding-top:5px;padding-bottom:70px;width: 90px;transition: .2s linear}
+.members-1998pB:hover{width: 240px}
 .membersGroup-v9BXpm{
     height:auto;
     width:90px;
@@ -10,11 +10,11 @@
     line-height:10px;
     word-break: break-all;
     text-align: center;
-    transition:.2s;
+    transition:.2s linear;
     color: rgb(200,200,200);
 }
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{padding:2px 75px;width:240px}
-.member-3-YXUe{width:45px;transition:.3s;margin:3px 0 3px 22px}
+.member-3-YXUe{width:45px;transition:.2s linear;margin:3px 0 3px 22px}
 .membersWrap-2h-GB4:hover .member-3-YXUe{width:220px;margin:3px 0 3px 8px}
 
 .activity-3mKQ-i {color: rgb(200,200,200)}
