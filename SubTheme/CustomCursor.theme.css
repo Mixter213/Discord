@@ -1,10 +1,12 @@
 /*//META{"name":"CustomCursor","description":"A custom cursor for your custom taste","author":"Mixter213","version":"1.0"}*//**/
 
-
+@import url("https://mixter213.github.io/Discord/Code/CustomCursor.css")
+/* Example */
+/* --cursor-default:  url('https://cdn.discordapp.com/attachments/643235994568753162/645835219286360064/cursor.png'), default; */
 :root{
     --cursor-not-allowed: not-allowed;
-    --cursor-default: url('https://cdn.discordapp.com/attachments/643235994568753162/645835219286360064/cursor.png'), default;
-    --cursor-pointer: url('https://cdn.discordapp.com/attachments/643235994568753162/645835219286360064/cursor.png'), pointer;
+    --cursor-default: default;
+    --cursor-pointer: pointer;
     --cursor-auto: auto;
     --cursor-none: none;
     --cursor-zoom-in: zoom-in;
@@ -20,3 +22,4 @@
     --cursor-webkit-zoom-in: -webkit-zoom-in;
     --cursor-webkit-zoom-out: -webkit-zoom-out;
 }
+
