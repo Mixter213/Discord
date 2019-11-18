@@ -1,0 +1,406 @@
+
+body {cursor: var(--cursor-default);}
+.button-38aScr:disabled {cursor:var(--cursor-not-allowed)}
+.disabledButtonOverlay-2DA5FI {cursor:var(--cursor-not-allowed)}
+.selectable-x8iAUj {cursor:var(--cursor-text)}
+.disabled-2BKQFm {cursor:var(--cursor-not-allowed)}
+.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb,.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb {cursor:var(--cursor-move)}
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {cursor:var(--cursor-move)}
+.close-1kwMUs {cursor:var(--cursor-pointer)}
+.title-3sZWYQ {cursor:var(--cursor-default)}
+.disabled-2Dh7SK {cursor:var(--cursor-not-allowed)}
+.minorAction-OVxOke {cursor:var(--cursor-pointer)}
+.inputDefault-3JxKJ2 {cursor:var(--cursor-pointer)}
+.inputDisabled-110Jqx {cursor:var(--cursor-not-allowed)}
+.inputReadonly-rYU97L {cursor:var(--cursor-default)}
+.label-cywgfr {cursor:var(--cursor-pointer)}
+.labelDisabled-G7bjji {cursor:var(--cursor-not-allowed)}
+.reverseLabel-3ANTBK {cursor:var(--cursor-pointer)}
+.reverseLabelDisabled-1LBunF {cursor:var(--cursor-not-allowed)}
+.modeDefault-3a2Ph1 {cursor:var(--cursor-default)}
+.modeSelectable-k2b2pa {cursor:var(--cursor-text)}
+.modeDisabled-33Av8D {cursor:var(--cursor-not-allowed)}
+.formNotice-2_hHWR {cursor:var(--cursor-default)}
+.copyLink-2P6ziV.copied-2kz8Mo {cursor:var(--cursor-default)}
+.infoLink-1mhIP6 {cursor:var(--cursor-pointer)}
+.select-1Pkeg4 {cursor:var(--cursor-pointer)}
+.selectDisabled-1oPnek {cursor:var(--cursor-not-allowed)}
+.option-1mJRMP {cursor:var(--cursor-pointer)}
+.contextMenu-HLZMGh {cursor:var(--cursor-default)}
+.itemBase-tz5SeC.disabled-2xniQf:hover {cursor:var(--cursor-default)}
+.clickable-11uBi-:hover,.selected-BYpGTS {cursor:var(--cursor-pointer)}
+.itemSlider-FZeYw0 {cursor:var(--cursor-default)}
+.checkbox-3EVISJ {cursor:var(--cursor-pointer)!important}
+.disabled-2xniQf .checkbox-3EVISJ {cursor:var(--cursor-default)}
+.image-1ehFEp,.itemImage-htIz_v {cursor:var(--cursor-pointer)!important}
+.checkbox-3kaeSU {cursor:var(--cursor-pointer)}
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:disabled+span {cursor:var(--cursor-not-allowed)}
+.downloadApps-wbBFdZ .footer-1nkeBm a {cursor:var(--cursor-pointer)}
+.pointer-2zj-Tb {cursor:var(--cursor-pointer)}
+.cursorDefault-dsQJ1n {cursor:var(--cursor-default)}
+.row-rrHHJU {cursor:var(--cursor-pointer)}
+.addButtonIcon-1NMJ8u {cursor:var(--cursor-pointer)}
+.iconHover-27CwXP {cursor:var(--cursor-pointer)}
+.textHover-3f_j3D {cursor:var(--cursor-pointer)}
+.cursorDefault-331ZcI {cursor:var(--cursor-default)}
+.cursorPointer-1tw4YS {cursor:var(--cursor-pointer)}
+.wrapper-129saQ a:link,.wrapper-129saQ a:visited {cursor:var(--cursor-pointer)}
+.iconWrapper-21idzA {cursor:var(--cursor-pointer)}
+.arrowHitbox-2_hxtQ {cursor:var(--cursor-pointer)}
+.dot-2Q_mMZ {cursor:var(--cursor-pointer)}
+.copyInput-2rOSt7 {cursor:var(--cursor-pointer)}
+.input-31cgnL {cursor:var(--cursor-text)}
+.interactiveBreadcrumb-3qFng9 {cursor:var(--cursor-pointer)}
+.errorCloseIcon-3y2VHJ {cursor:var(--cursor-pointer)}
+.paypalInput-3MddcM {cursor:var(--cursor-default)}
+.buyButtonTooltipTarget-2JtpkN {cursor:var(--cursor-not-allowed)}
+.subscriptionDetailsToggle-3dzjj6 {cursor:var(--cursor-pointer)}
+.skuButton-3mJM9j {cursor:var(--cursor-pointer)}
+.planOptionClickable-1olkDq {cursor:var(--cursor-pointer)}
+.planOptionDisabled-2r3-9A .planOptionClickable-1olkDq {cursor:var(--cursor-not-allowed)}
+.skuButton-29ojaT {cursor:var(--cursor-pointer)}
+.planOptionClickable-3Yma-h {cursor:var(--cursor-pointer)}
+.planOptionDisabled-1rEC5K .planOptionClickable-3Yma-h {cursor:var(--cursor-not-allowed)}
+.player-3zB-0D {cursor:var(--cursor-pointer)}
+.overflowAvatar-QpaaM5 {cursor:var(--cursor-pointer)}
+.gameIcon-cb7qdd.verified-2ZOwPn {cursor:var(--cursor-pointer)}
+.gameTitle-1cA_Wo.verified-2ZOwPn:hover {cursor:var(--cursor-pointer)}
+.inner-2Y6JuD:hover {cursor:var(--cursor-pointer)}
+.avatarWrapperNormal-3wFMbf {cursor:var(--cursor-pointer)}
+.avatarWrapperNonUserBot-2DufN6 {cursor:var(--cursor-default)}
+.headerLive-172YLb {cursor:var(--cursor-pointer)}
+.checkboxEnabled-CtinEn {cursor:var(--cursor-pointer)}
+.checkboxDisabled-1MA81A {cursor:var(--cursor-not-allowed)}
+.disabled-2HSEFa {cursor:var(--cursor-not-allowed)}
+.disabled-2HSEFa .titleDefault-a8-ZSr,.disabled-2HSEFa .titleMini-pBwj_L {cursor:var(--cursor-not-allowed)}
+.title-31JmR4 {cursor:var(--cursor-pointer)}
+.disabled-bolDAc .grabber-3mFHz2 {cursor:var(--cursor-not-allowed)}
+.grabber-3mFHz2 {cursor:var(--cursor-ew-resize)}
+.wrapperHover-1GktnT {cursor:var(--cursor-pointer)}
+.spoilerContainer-331r0R.hidden-HHr2R9 {cursor:var(--cursor-pointer)}
+.spoilerWarning-2aAZq1 {cursor:var(--cursor-pointer)}
+.spoilerText-3p6IlD.hidden-HHr2R9 {cursor:var(--cursor-pointer)}
+.spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {cursor:var(--cursor-pointer)}
+.markup-2BOw-j a {cursor:var(--cursor-pointer)}
+.winButton-iRh8-Z {cursor:var(--cursor-pointer)}
+.app-2rEoOp button {cursor:var(--cursor-pointer)}
+a {cursor:var(--cursor-pointer)}
+button {cursor:var(--cursor-pointer)}
+.icon-2lUHAl {cursor:var(--cursor-pointer)}
+.btn-3wPLTq {cursor:var(--cursor-pointer)}
+.verifyConnectedAccount-3WFmtE .btn-3HQv6W:disabled {cursor:var(--cursor-not-allowed)}
+.disabled-jLAJq8 .input-1Rv96N {cursor:var(--cursor-not-allowed)}
+.tag-2gHSR7 {cursor:var(--cursor-pointer)}
+.iconLayout-1WxHy4 {cursor:var(--cursor-text)}
+.clear-1pMieT {cursor:var(--cursor-pointer)}
+.container-1r6BKw {cursor:var(--cursor-default)}
+.clickable-3rdHwn {cursor:var(--cursor-pointer)}
+.react-datepicker__navigation {cursor:var(--cursor-pointer)}
+.react-datepicker__week-number.react-datepicker__week-number--cursor-clickable {cursor:var(--cursor-pointer)}
+.react-datepicker__day {cursor:var(--cursor-pointer)}
+.react-datepicker__day--cursor-disabled {cursor:var(--cursor-default)}
+.react-datepicker__month-read-view:hover,.react-datepicker__year-read-view:hover {cursor:var(--cursor-pointer)}
+.react-datepicker__month-dropdown:hover,.react-datepicker__year-dropdown:hover {cursor:var(--cursor-pointer)}
+.react-datepicker__close-icon {cursor:var(--cursor-pointer)}
+.react-datepicker__close-icon:after {cursor:var(--cursor-pointer)}
+.react-datepicker__today-button {cursor:var(--cursor-pointer)}
+.wrapper-1ucjTd {cursor:var(--cursor-pointer)}
+.wrapper-1ucjTd.modeSelected-1zApJ_ {cursor:var(--cursor-default)}
+.wrapper-1ucjTd.modeLocked-SZJhTy {cursor:var(--cursor-not-allowed)}
+.keybindShortcut-1BD6Z1 span {cursor:var(--cursor-default)}
+.queryContainer-RKFJW- {cursor:var(--cursor-pointer)}
+.resultsGroup-r_nuzN .searchClearHistory-2cSSMO,.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {cursor:var(--cursor-pointer)}
+.option-96V44q {cursor:var(--cursor-pointer)}
+.datePicker--cursor-XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {cursor:var(--cursor-pointer)}
+.searchBar-3dMhjb {cursor:var(--cursor-text)}
+.item-PXvHYJ {cursor:var(--cursor-pointer)}
+.selected-3s45Ha.item-PXvHYJ,.selected-3s45Ha.item-PXvHYJ:hover {cursor:var(--cursor-default)}
+.selected-3s45Ha {cursor:var(--cursor-default)}
+.guildIcon-hnndEr {cursor:var(--cursor-pointer)}
+.edited-DL9ECl {cursor:var(--cursor-pointer)}
+.operations-36ENbA>a {cursor:var(--cursor-pointer)}
+.clickOverride-1J40_l {cursor:var(--cursor-pointer)}
+.avatar-17mtNa {cursor:var(--cursor-pointer)}
+.username-_4ZSMR {cursor:var(--cursor-pointer)}
+.button-3Jq0g9 {cursor:var(--cursor-pointer)}
+.item-2J1YMK:hover {cursor:var(--cursor-pointer)}
+.selectable-3dP3y- {cursor:var(--cursor-pointer)}
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc.error-kKl9o2 a {cursor:var(--cursor-pointer)}
+.content-P4SiGI {cursor:var(--cursor-pointer)}
+.buttonWrapper-1ZmCpA {cursor:var(--cursor-pointer)}
+.emojiButton-3uL3Aw {cursor:var(--cursor-pointer)}
+.innerDisabled-2mc-iF {cursor:var(--cursor-not-allowed)}
+.attachPopoutRow-KrE-f6 {cursor:var(--cursor-pointer)}
+.diversitySelector-tmmMv0 {cursor:var(--cursor-pointer)}
+.diversitySelector-tmmMv0 .item-16cXuq {cursor:var(--cursor-pointer)}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {cursor:var(--cursor-pointer)}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {cursor:var(--cursor-pointer)}
+.premiumPromoClose-2sqoIR {cursor:var(--cursor-pointer)}
+.premiumRetentionNoticeClose-13p8rf {cursor:var(--cursor-pointer)}
+.disabled-1ytYrN .input-3Xdcic {cursor:var(--cursor-not-allowed)}
+.tag-2gZFdE {cursor:var(--cursor-pointer)}
+.iconLayout-3OgqU3 {cursor:var(--cursor-text)}
+.pointer-aRJXzd {cursor:var(--cursor-pointer)}
+.result-3w1ZcL {cursor:var(--cursor-pointer)}
+.backButton-JyKGC1 {cursor:var(--cursor-pointer)}
+.invite-18yqGF {cursor:var(--cursor-default)}
+.partyMemberKnown-2QGebq {cursor:var(--cursor-pointer)}
+.hidePermanently-36wWty {cursor:var(--cursor-pointer)}
+.closeIcon-tEzaUY {cursor:var(--cursor-pointer)}
+.imageZoom-1n-ADA {cursor:var(--cursor-nesw-resize);cursor:var(--cursor-webkit-zoom-in);cursor:var(--cursor-zoom-in)}
+.clickable-3Ya1ho {cursor:var(--cursor-pointer)}
+.embedLink-1G1K1D {cursor:var(--cursor-pointer)}
+.embedSuppressButton-1FonMn {cursor:var(--cursor-pointer)}
+.spoilerEmbed-1fzvzg.hiddenSpoiler-3i0zpa {cursor:var(--cursor-pointer)}
+.mediaBarInteraction-37i2O4,.mediaBarInteractionDragging-2QurIZ {cursor:var(--cursor-pointer)}
+.mediaBarGrabber-1FqnbN {cursor:var(--cursor-webkit-grab);cursor:var(--cursor-grab)}
+.wrapperControlsHidden-35Gtol {cursor:var(--cursor-none)}
+.controlIcon-3cRbti {cursor:var(--cursor-pointer)}
+.cancelButton-3hVEV6,.downloadButton-23tKQp {cursor:var(--cursor-pointer)}
+.guildIconJoined-1r7FRE {cursor:var(--cursor-pointer)}
+.guildIconImageJoined-SepVdI {cursor:var(--cursor-pointer)}
+.guildNameJoined-H7D9uF {cursor:var(--cursor-pointer)}
+.reactionBtn-2na4rd {cursor:var(--cursor-pointer)}
+.reaction-1ELvT8 {cursor:var(--cursor-pointer)}
+.reaction-1ELvT8.reactionReadOnly-VBNG8M {cursor:var(--cursor-not-allowed)}
+.interactive-1BeKSi {cursor:var(--cursor-pointer)}
+.content-2M3n_H a {cursor:var(--cursor-pointer)}
+.actionAnchor-gzc_5z {cursor:var(--cursor-pointer)}
+.icon-360yEu,.message-o_XyYw {cursor:var(--cursor-pointer)}
+.tierMarkerSelectable-3t7r2q {cursor:var(--cursor-pointer)}
+.closeButton-1tv5uR {cursor:var(--cursor-pointer)}
+.iconWrapper-3LVgIo {cursor:var(--cursor-pointer)}
+.icon-TYbVk4.disabled-24YXy-,.icon-TYbVk4.disabled-24YXy-:hover {cursor:var(--cursor-not-allowed)}
+.selectGuild-1Ygl76 {cursor:var(--cursor-pointer)}
+.giftIcon-ZxlWk5 {cursor:var(--cursor-pointer)}
+.carouselItemClickable-3Corbv {cursor:var(--cursor-pointer)}
+.item-26Dhrx {cursor:var(--cursor-pointer)}
+.disabled-1FsPTr {cursor:var(--cursor-not-allowed)}
+.reactionDefault-GBA58K {cursor:var(--cursor-pointer)}
+.remove-3V-yj8 {cursor:var(--cursor-pointer)}
+.channelName-3kBz6H {cursor:var(--cursor-pointer)}
+.jumpButton-3DTcS_ {cursor:var(--cursor-pointer)}
+.closeButton-17RIVZ {cursor:var(--cursor-pointer)}
+.mentionFilter-1PQ6ey {cursor:var(--cursor-pointer)}
+.result-oB0z--cursor- {cursor:var(--cursor-pointer)}
+.colorPickerSwatch-5GX3Ve {cursor:var(--cursor-pointer)}
+.colorPickerSwatch-5GX3Ve.disabled-1C4eHl {cursor:var(--cursor-not-allowed)}
+.infoIcon-3dyWqH {cursor:var(--cursor-pointer)}
+.headerDefault-1wrJcN {cursor:var(--cursor-default)}
+.headerClickable-2IVFo9,.headerExpanded-CUEwZ5 {cursor:var(--cursor-pointer)}
+.selectableItem-1MP3MQ {cursor:var(--cursor-pointer)}
+.selectableItem-1MP3MQ.selected-31soGA {cursor:var(--cursor-default)}
+.streamerModeEnabledBtn-2ZJ2eq {cursor:var(--cursor-pointer)}
+.streamerModeEnabledBtn-2ZJ2eq.disabled-1X7fxl {cursor:var(--cursor-default)}
+.popoutListEmpty-voOEBJ {cursor:var(--cursor-default)}
+.quickSelect-3BxO0K {cursor:var(--cursor-default)}
+.quickSelectClick-1HOWp1 {cursor:var(--cursor-pointer)}
+.quickSelectPopoutOption-opKBx9 {cursor:var(--cursor-pointer)}
+.quickSelectPopoutOption-opKBx9.selected-3RZo5I {cursor:var(--cursor-default)}
+.bannedUser-1IalTM {cursor:var(--cursor-pointer)}
+.button-2CgfFz {cursor:var(--cursor-pointer)}
+.clickable-VxMZ3b {cursor:var(--cursor-pointer)}
+.postText-fdKPvj {cursor:var(--cursor-pointer)}
+.headerText-3F6XtG .style-description {cursor:var(--cursor-pointer)}
+.forceSync-LKCGuq {cursor:var(--cursor-pointer)}
+.forceSync-LKCGuq:disabled {cursor:var(--cursor-not-allowed)}
+.member-1q7VfX .nameTag-3wmDUk .name-8yzEIY,.member-1q7VfX .nameTag-3wmDUk .tag-1YGWN9 {cursor:var(--cursor-text)}
+.member-1q7VfX .ownerHelpIcon-3ItaBx {cursor:var(--cursor-default)}
+.member-1q7VfX .overflowIcon-1qLIlV {cursor:var(--cursor-pointer)}
+.container-1nZlH6 {cursor:var(--cursor-pointer)}
+.disabled-qocNLx {cursor:var(--cursor-not-allowed)}
+.avatarUploader-3XDtmn .removeButton-1hcZyG {cursor:var(--cursor-pointer)}
+.regionSelect-3lf4eE {cursor:var(--cursor-pointer)}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {cursor:var(--cursor-pointer)}
+.moreSubscribers-1cuWDE {cursor:var(--cursor-pointer)}
+.tierCloseClose-2z5dSa {cursor:var(--cursor-pointer)}
+.iconButton-3V4WS5 {cursor:var(--cursor-pointer)}
+.item-3T2z1R {cursor:var(--cursor-pointer)}
+.item-3T2z1R:disabled {cursor:var(--cursor-not-allowed)}
+.sidebarHeader-UbSI9z {cursor:var(--cursor-pointer)}
+.notAllowedCursor-3yjYya {cursor:var(--cursor-not-allowed)}
+.prefixInput-14nUik {cursor:var(--cursor-text)}
+.prefixInputInput-cqxbLV:disabled {cursor:var(--cursor-not-allowed)}
+.partyMemberKnown-33AIuv {cursor:var(--cursor-pointer)}
+.clickableIcon-2uyAYz {cursor:var(--cursor-pointer)}
+.headerAvatar-zl6ti_ {cursor:var(--cursor-pointer)}
+.voiceSectionDetails-NrmGDF {cursor:var(--cursor-pointer)}
+.voiceSectionGuildImage-2D1_5K,.voiceSectionNoGuildImageWrapper-335BXM {cursor:var(--cursor-pointer)}
+.applicationStreamingAvatar-2MVmHs {cursor:var(--cursor-pointer)}
+.applicationStreamingPreviewWrapper-GnrvWN {cursor:var(--cursor-pointer)}
+.applicationStreamingHoverWrapper-1EroyS {cursor:var(--cursor-pointer)}
+.twitchSectionPlayButton-2RamGG {cursor:var(--cursor-pointer)}
+.twitchSectionPreviewWrapper-_xA9Ez {cursor:var(--cursor-pointer)}
+.gameSectionIcon-1-By4Y {cursor:var(--cursor-pointer)}
+.enabled-5QKLzu:hover {cursor:var(--cursor-pointer)}
+.memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {cursor:var(--cursor-pointer)}
+.item-3E8jqb:hover {cursor:var(--cursor-pointer)}
+.close-C7sU74 {cursor:var(--cursor-pointer)}
+.applicationIcon-3-RUVw {cursor:var(--cursor-pointer)}
+.clickable-nnkAZy {cursor:var(--cursor-pointer)}
+.card-3DjzTQ {cursor:var(--cursor-pointer)}
+.carouselContainer-2U7ci9:hover .showPeek-2h6B-z.fade-3OePbZ {cursor:var(--cursor-pointer)}
+.clearIcon-2N9YIn {cursor:var(--cursor-pointer)}
+.searchIcon-1a1-yA {cursor:var(--cursor-pointer)}
+.pageButton-MknE-_ {cursor:var(--cursor-pointer)}
+.multiplePlaceholder-M9zbu6,.placeholder-3KRNN9 {cursor:var(--cursor-pointer)}
+.clickable-1JJAn8:hover .layout-2DM8Md {cursor:var(--cursor-pointer)}
+.phoneField-38N1bJ .countryButton-3xq3Ts {cursor:var(--cursor-pointer)}
+.welcomeMessage-3_Mcht a {cursor:var(--cursor-pointer)}
+.barBase-39XTcM {cursor:var(--cursor-pointer)}
+.hasMore-3e72_v {cursor:var(--cursor-pointer)}
+.divider-3gKybi {cursor:var(--cursor-default)}
+.messageGroupBlockedBtn-1PBBh- {cursor:var(--cursor-pointer)}
+.tab-2Ixsn0 {cursor:var(--cursor-pointer)}
+.channelName-1QajIf {cursor:var(--cursor-pointer)}
+.searchResultMessage-2VxO12.after-2g0jjc:hover,.searchResultMessage-2VxO12.before-1x1q5S:hover {cursor:var(--cursor-pointer)}
+.jumpButton-Ia2hRJ {cursor:var(--cursor-pointer)}
+.pagination-eQpqgk .paginationNext-3Tefao,.pagination-eQpqgk .paginationPrevious-4Yw0Tk {cursor:var(--cursor-pointer)}
+.pagination-eQpqgk .paginationNext-3Tefao.disabled-AFY2aL,.pagination-eQpqgk .paginationPrevious-4Yw0Tk.disabled-AFY2aL {cursor:var(--cursor-default)}
+.resultsBlocked-3DOWQ9 {cursor:var(--cursor-pointer)}
+.joinVideoCallButton-beESDO {cursor:var(--cursor-pointer)}
+.joinVideoCallButton-beESDO .inner-3peDZ4 {cursor:var(--cursor-pointer)}
+.video-1FfuMD {cursor:var(--cursor-default)}
+.video-1FfuMD.idle-1sRXLT {cursor:var(--cursor-none)}
+.callAvatarStatus-3vMeXZ.video-3SrWSI {cursor:var(--cursor-pointer)}
+.callAvatarVideo-2ItXvV.enabled-28uUMv {cursor:var(--cursor-pointer)}
+.wrapper-29NfPK .iconButton-1tFuLN {cursor:var(--cursor-pointer)}
+.topic-TCb_qw.expandable-9fI_e3 {cursor:var(--cursor-pointer)}
+.cursorPonter-YEp76E {cursor:var(--cursor-pointer)}
+.editPartyIcon-1GA5r3 {cursor:var(--cursor-pointer)}
+.friendWrapper-2SrUFF {cursor:var(--cursor-pointer)}
+.reportText-3upFz- {cursor:var(--cursor-pointer)}
+.emoji-Ydjlry {cursor:var(--cursor-pointer)}
+.miniPlayer-3Ms77e .headerTitle-1EzOnI:hover {cursor:var(--cursor-pointer)}
+.miniPlayer-3Ms77e .titleText-2OQNts:hover {cursor:var(--cursor-pointer)}
+.breadcrumb-22XhB5 {cursor:var(--cursor-pointer)}
+.viewAllGames-3LNpt1,.viewAllNitroGames-3v3cAi {cursor:var(--cursor-pointer)}
+.scrollerButton-1Vm5_P {cursor:var(--cursor-pointer)}
+.arrowContainer-10m4Cy {cursor:var(--cursor-pointer)}
+.item-3V15ea {cursor:var(--cursor-pointer)}
+.currentItem-UAeoVQ {cursor:var(--cursor-default)}
+.currentImage-3bYzZH {cursor:var(--cursor-webkit-zoom-in);cursor:var(--cursor-zoom-in)}
+.itemVideo-1NRzca {cursor:var(--cursor-pointer)}
+.unselectedStorePaginationItem-3alXda:hover {cursor:var(--cursor-pointer)}
+.wrapper-Dh-cqn {cursor:var(--cursor-webkit-zoom-out);cursor:var(--cursor-zoom-out)}
+.smallCarouselImage-2Qvg9S {cursor:var(--cursor-webkit-zoom-in);cursor:var(--cursor-zoom-in)}
+.alternativeSku-2r0c9j {cursor:var(--cursor-pointer)}
+.sku-epQEb_ {cursor:var(--cursor-pointer)}
+.entitledHeader-3LRNDT {cursor:var(--cursor-pointer)}
+.playerAvatar-3EAx5P {cursor:var(--cursor-pointer)}
+.username-2gp_Xw:hover {cursor:var(--cursor-pointer)}
+.link-2T7oYD {cursor:var(--cursor-pointer)}
+.addFriendHint-3Y70FX {cursor:var(--cursor-text)}
+.friendsTable-133bsv .friendsRow-2yicud {cursor:var(--cursor-pointer)}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {cursor:var(--cursor-pointer)}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {cursor:var(--cursor-pointer)}
+.dismiss-SCAH9H {cursor:var(--cursor-pointer)}
+.card-7JP0BX {cursor:var(--cursor-default)}
+.card-2UDoCi {cursor:var(--cursor-pointer)}
+.expandIcon-2zn6K7 {cursor:var(--cursor-pointer)}
+.rowWrapper-2fB6P0 {cursor:var(--cursor-pointer)}
+.nameCell-bbdv8D {cursor:var(--cursor-pointer)}
+.channelNotice-1-XFjC a,.close-relY5R {cursor:var(--cursor-pointer)}
+.itemBase-1Qj4z6 {cursor:var(--cursor-pointer)}
+.message-15tBk4 {cursor:var(--cursor-default)}
+.wrapper-CU3qI5 {cursor:var(--cursor-default)}
+.clickable-18m--cursor-O {cursor:var(--cursor-pointer)}
+.actionIcon-2Hi9ZG {cursor:var(--cursor-pointer)}
+.bar-30k2ka {cursor:var(--cursor-pointer)}
+.voiceUser-14U_Ns {cursor:var(--cursor-pointer)}
+.previewHover-1tGzfF {cursor:var(--cursor-pointer)}
+.clickableAvatar-1wQpeh {cursor:var(--cursor-pointer)}
+.clickable-2ap7je {cursor:var(--cursor-pointer)}
+.clickable-2ap7je .header-2o-2hj {cursor:var(--cursor-pointer)}
+.wrapper-25eVIn {cursor:var(--cursor-pointer)}
+.circleIconButton-jET_ig {cursor:var(--cursor-pointer)}
+.folder-21wGz3 {cursor:var(--cursor-pointer)}
+.hoverRoll-YK53gQ {cursor:var(--cursor-default)}
+.btn-1PnLxm {cursor:var(--cursor-pointer)}
+.btn-1PnLxm:disabled {cursor:var(--cursor-not-allowed)}
+.userSettingsSecurity-3IYeMF .checkboxGroup-3_9osm .code-2d9-2m {cursor:var(--cursor-text)}
+.questionMark-CWEQZn .icon-3a_Jgd {cursor:var(--cursor-pointer)}
+.searchOption-8nCYo- {cursor:var(--cursor-pointer)}
+.pageButtonNext-V2kUq0,.pageButtonPrev-1Y-47D {cursor:var(--cursor-pointer)}
+.disabled-BrLY9Y {cursor:var(--cursor-not-allowed)}
+.summaryInfo-2QFKUg {cursor:var(--cursor-pointer)}
+.paymentRow-2e7VM6 {cursor:var(--cursor-default)}
+.disabledTooltipTarget-1M3ydP {cursor:var(--cursor-not-allowed)}
+.connectionDelete-2Odoln {cursor:var(--cursor-pointer)}
+.removeBuildOverrideDisabled-3-pn2T {cursor:var(--cursor-not-allowed)}
+.title-2jLbtf {cursor:var(--cursor-pointer)}
+.overlayToggleIcon-2liB3r {cursor:var(--cursor-pointer)}
+.restoreButton-22-SIW {cursor:var(--cursor-pointer)}
+.membershipDialogSwitchHousesAction-2a3eDg {cursor:var(--cursor-pointer)}
+.leaveButton-2ml9zB {cursor:var(--cursor-pointer)}
+.container-CpszHS * {cursor:var(--cursor-pointer)}
+.disabled-29eJ21,.disabled-29eJ21 * {cursor:var(--cursor-not-allowed)}
+.item-3eFBNF {cursor:var(--cursor-pointer)}
+.notificationsSound-27jFSh {cursor:var(--cursor-pointer)}
+.option-n0icdO {cursor:var(--cursor-pointer)}
+.hiddenInput-AN-Xon {cursor:var(--cursor-pointer)}
+.disabled-3I9jyo {cursor:var(--cursor-pointer)}
+.guildGemIndicatorContainer-3Ie0ga {cursor:var(--cursor-pointer)}
+.guildSubscriptionSlotMenuIcon-uzNhjL {cursor:var(--cursor-pointer)}
+.card-3AyPWq {cursor:var(--cursor-pointer)}
+.container-3baos1 .avatar-SmRMf2 {cursor:var(--cursor-pointer)}
+.nameTag-3uD-yy.canCopy-2VBT7N {cursor:var(--cursor-pointer)}
+.item-1TLUig {cursor:var(--cursor-pointer)}
+.voiceUserList-2E9MFf {cursor:var(--cursor-default)}
+.clickableGameWrapper-2fpjdx {cursor:var(--cursor-pointer)}
+.overflow-1VTquN {cursor:var(--cursor-pointer)}
+.avatar-2fD4wn {cursor:var(--cursor-pointer)}
+.container-2x5lvQ .debugButton-1Zec0y {cursor:var(--cursor-pointer)}
+.statusWithPopout-3ZfFol {cursor:var(--cursor-pointer)}
+.sidebarHeaderDefault-euM02r {cursor:var(--cursor-pointer)}
+.sidebarHeaderLocked-3vDCdm {cursor:var(--cursor-default)}
+.title-3CR76z {cursor:var(--cursor-default)}
+.verificationBlock-1Chfpc {cursor:var(--cursor-pointer)}
+.channel-2-6Ybo {cursor:var(--cursor-pointer)}
+.icon-39eRmc {cursor:var(--cursor-pointer)}
+.closeIcon-1WWHLZ {cursor:var(--cursor-pointer)}
+.closeIcon-2kCx64 {cursor:var(--cursor-pointer)}
+.action-1lSjCi {cursor:var(--cursor-pointer)}
+.actionButton-2PeQbJ {cursor:var(--cursor-pointer)}
+.reset-2ikQ30 {cursor:var(--cursor-pointer)}
+.logout-237t5C {cursor:var(--cursor-pointer)}
+.form-236Xmo .controlGroup-2GQ-D1 label a {cursor:var(--cursor-pointer)}
+.form-236Xmo .controlGroup-2GQ-D1 input[type=email]:disabled,.form-236Xmo .controlGroup-2GQ-D1 input[type=number]:disabled,.form-236Xmo .controlGroup-2GQ-D1 input[type=password]:disabled,.form-236Xmo .controlGroup-2GQ-D1 input[type=text]:disabled,.form-236Xmo .controlGroup-2GQ-D1 textarea:disabled {cursor:var(--cursor-not-allowed)}
+.form-236Xmo .btn-2OZqMZ {cursor:var(--cursor-pointer)}
+.modalNewUser-3IRw8L>.steps-370EKx .step2-1_7I-g .guildForm-lCa-wJ .controlGroup-2GQ-D1 input[disabled] {cursor:var(--cursor-not-allowed)}
+.headerOption-3qo9Ph {cursor:var(--cursor-default)}
+.imageStack-2r0kGy,.imageWrap-3oNVAv {cursor:var(--cursor-pointer)}
+.profileBadge-2BqF-Z {cursor:var(--cursor-pointer)}
+.additionalActionsIcon-1FoUlE {cursor:var(--cursor-pointer)}
+.listRow-hutiT_ {cursor:var(--cursor-pointer)}
+.clickBlocker-fnG15u {cursor:var(--cursor-auto)}
+.clickable-2NoTM3 {cursor:var(--cursor-pointer)}
+.dismissButton-AdNfLV {cursor:var(--cursor-pointer)}
+.icon-15v2QJ {cursor:var(--cursor-pointer)}
+.resizeNSCursor-1lS9F0 {cursor:var(--cursor-ns-resize)}
+.resizeEast-2-Ljsv,.resizeWest-1E67qS {cursor:var(--cursor-ew-resize)}
+.resizeEWCursor-ARVQXd {cursor:var(--cursor-ew-resize)}
+.resizeNorthWest-3Q21ZU {cursor:var(--cursor-nwse-resize)}
+.resizeNorthEast-2gXday {cursor:var(--cursor-nesw-resize)}
+.resizeSouthWest-mlbRRD {cursor:var(--cursor-nesw-resize)}
+.resizeNWSECursor-2mXwZU,.resizeSouthEast-385fJH {cursor:var(--cursor-nwse-resize)}
+.resizeNESWCursor-1EQZf_ {cursor:var(--cursor-nesw-resize)}
+.draggableStartArea-37VeBj {cursor:var(--cursor-move)}
+.guildHeader-1aEy0W {cursor:var(--cursor-move)}
+.draggableStartArea-1UY-rN {cursor:var(--cursor-move)}
+.theme-dark .inGame-2RplaV:not(.inGameActive-36BUM7) .draggableStartArea-1UY-rN {cursor:var(--cursor-default)}
+.footer-2Ijhzu {cursor:var(--cursor-default)}
+.resizeIcon-2xSgbl {cursor:var(--cursor-nwse-resize)}
+.opacityHeader-1wUrEK {cursor:var(--cursor-default)}
+.draggableStartArea-3BsD3u {cursor:var(--cursor-move)}
+.overlay-2zxlBT {cursor:var(--cursor-auto)}
+.button-2A8AGi {cursor:var(--cursor-pointer)}
+.btnHamburger-3grAP3 {cursor:var(--cursor-pointer)}
+.localeBase-27bssN {cursor:var(--cursor-pointer)}
+.localePicker-25NM64 {cursor:var(--cursor-pointer)}
+.select-3Go1Du {cursor:var(--cursor-pointer)}
+.mobileMenuItem-z_D6aZ {cursor:var(--cursor-pointer)}
+.desktopSubMenuItem-1fMXMo {cursor:var(--cursor-default)}
+.listItemInactive-396Xk8 {cursor:var(--cursor-pointer)}
+    
+    
