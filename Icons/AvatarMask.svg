@@ -1,6 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297">
-  <g fill-rule="evenodd">
-    <path d="M67.085 60.403v32h21.751a7.249 7.249 0 01-2-5 7.249 7.249 0 017.249-7.25 7.249 7.249 0 015 2.002V60.403h-32z"/>
-    <circle cx="127.854" cy="78.703" r="5" fill="red"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path fill-rule="evenodd" d="M0 0v32h21.752a7.249 7.249 0 01-2.001-5A7.249 7.249 0 0127 19.75a7.249 7.249 0 015 2.002V0z"/>
 </svg>
