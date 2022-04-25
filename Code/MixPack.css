@@ -479,7 +479,7 @@ body {
 .chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
   background: rgba(60, 62, 64, 0.2);
   border-radius: 0;
-  height: 44px;
+  min-height: 44px;
   padding: 4px 0;
 }
 
