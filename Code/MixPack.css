@@ -1,14 +1,3 @@
-
-:root {
-  --modal-background: rgba(60,62,64,.8);
-  --background-primary: rgba(40,42,44,.8);
-  --background-secondary: rgba(60,62,64,.8);
-  --background-secondary-alt: rgba(20,22,24,.6);
-  --background-tertiary: rgba(20,22,24,.6);
-  --background-floating: rgba(60,62,64,.9);
-  --background-modifier-hover: rgba(40,100,200,.4);
-}
-
 html {
   background: transparent;
 }
@@ -18,7 +7,7 @@ body {
 }
 
 .appMount-2yBXZl {
-  background: black url("https://i.imgur.com/R4UeFVd.jpeg") center/cover no-repeat;
+  background: black url("https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg") center/cover no-repeat;
 }
 
 .app-2CXKsg {
@@ -472,29 +461,35 @@ body {
   padding: 0 10px;
   background: rgba(26, 28, 30, 0.6);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 {
+.chatContent-3KubbW .channelTextArea-1VQBuV {
   background: transparent;
   margin: 0;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
+.chatContent-3KubbW .channelTextArea-1VQBuV .scrollableContainer-15eg7h {
   background: rgba(60, 62, 64, 0.2);
   border-radius: 0;
-  min-height: 44px;
+  height: 44px;
   padding: 4px 0;
 }
 
 .container-2o3qEW {
   background: transparent;
+  --Memberlist-Scrollbar: rgba(60,62,64,.2);
+  --Memberlist-Scrollbar-Thumb: rgba(30,30,30,.4);
+  --Memberlist-Background: rgba(60,62,64,.2);
+  --Memberlist-Header: rgba(80,82,84,.4);
 }
 
 .members-3WRCEx {
-  background: rgba(60, 62, 64, 0.2);
+  background: var(--Memberlist-Background);
 }
 .members-3WRCEx::-webkit-scrollbar-track {
-  background: rgba(60, 62, 64, 0.2);
+  visibility: visible;
+  background: var(--Memberlist-Scrollbar);
 }
 .members-3WRCEx::-webkit-scrollbar-thumb {
-  background: rgba(10, 12, 14, 0.3);
+  visibility: visible;
+  background: var(--Memberlist-Scrollbar-Thumb);
   border-radius: 0;
   border: none;
 }
@@ -507,7 +502,7 @@ body {
   line-height: 32px;
   margin: 4px 4px;
   padding: 0 10px;
-  background: linear-gradient(to right, transparent, rgba(80, 82, 84, 0.2) 3%, transparent);
+  background: linear-gradient(to right, transparent, var(--Memberlist-Header) 3%, transparent);
   color: #aaa;
 }
 
@@ -530,7 +525,7 @@ body {
   margin: 0;
   height: 44px;
   width: auto;
-  background: rgba(30, 32, 34, 0.8);
+  background: var(--Memberlist-Avatar);
   z-index: 2;
 }
 .avatar-6qzftW .wrapper-1VLyxH {
