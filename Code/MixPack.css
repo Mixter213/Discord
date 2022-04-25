@@ -478,6 +478,7 @@ body {
   --Memberlist-Scrollbar-Thumb: rgba(30,30,30,.4);
   --Memberlist-Background: rgba(60,62,64,.2);
   --Memberlist-Header: rgba(80,82,84,.4);
+  --Memberlist-Avatar: rgba(30,32,34,.4);
 }
 
 .members-3WRCEx {
