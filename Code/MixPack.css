@@ -791,7 +791,7 @@ body {
         border-radius: 4px;
     }
 
-    .content-1U25dZ .nameAndDecorators-3ERwy2 .roleColor-nA7BqX::before {
+    .content-1U25dZ .nameAndDecorators-3ERwy2 .username-i5-wv- span::before {
         content: "";
         position: absolute;
         height: 44px;
@@ -814,7 +814,7 @@ body {
         color: #c8c8c8;
     }
 
-    .member-2gU6Ar:hover .roleColor-nA7BqX::before {
+    .member-2gU6Ar:hover .username-i5-wv- span::before {
         opacity: 0.4;
     }
 
