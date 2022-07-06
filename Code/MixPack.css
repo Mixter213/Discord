@@ -115,6 +115,15 @@ body {
     border-radius: 4px;
 }
 
+/* remove sticky nitro button from guild list - fuck you discord - Qb */
+.fixedBottomList-1yrBla > .listItem-3SmSlK {
+    display: none;
+}
+
+.fixedBottomList-1yrBla {
+    padding: 0;
+}
+
 /* Sidebar --------------------------------------------------------------------------------------- */
 
 #app-mount .sidebar-1tnWFu {
