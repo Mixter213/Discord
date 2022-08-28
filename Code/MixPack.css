@@ -687,161 +687,261 @@ body {
 
 /* Memberlist --------------------------------------------------------------------------------------- */
 
-.container-2o3qEW {
-    background: transparent;
-}
+    .container-2o3qEW {
+        background: transparent;
+    }
 
-.members-3WRCEx {
-    background: var(--Memberlist-Background);
-}
+    .members-3WRCEx {
+        background: var(--Memberlist-Background);
+    }
 
-.members-3WRCEx::-webkit-scrollbar-track {
-    visibility: visible;
-    background: var(--Memberlist-Scrollbar);
-}
+    .members-3WRCEx::-webkit-scrollbar-track {
+        visibility: visible;
+        background: var(--Memberlist-Scrollbar);
+    }
 
-.members-3WRCEx::-webkit-scrollbar-thumb {
-    visibility: visible;
-    background: var(--Memberlist-Scrollbar-Thumb);
-    border-radius: 0;
-    border: none;
-}
+    .members-3WRCEx::-webkit-scrollbar-thumb {
+        visibility: visible;
+        background: var(--Memberlist-Scrollbar-Thumb);
+        border-radius: 0;
+        border: none;
+    }
 
-.members-3WRCEx .content-2a4AW9 {
-    background: transparent;
-}
+    .members-3WRCEx .content-2a4AW9 {
+        background: transparent;
+    }
 
-/* Category --------------------------------------------------------------------------------------- */
+    /* Category --------------------------------------------------------------------------------------- */
 
-.membersGroup-2eiWxl {
-    height: 32px;
-    line-height: 32px;
-    margin: 4px 4px;
-    padding: 0 10px;
-    background: linear-gradient(to right, transparent, var(--Memberlist-Header) 3%, transparent);
-    color: #aaa;
-}
+        .membersGroup-2eiWxl {
+            background: linear-gradient(to right, transparent, var(--Memberlist-Header) 3%, transparent);
+            height: unset;
+            font-size: 0.85rem;
+            line-height: normal;
+            letter-spacing: 0.02rem;
+            text-transform: none;
+            font-weight: 500;
+            margin: 0.2rem 0;
+            padding: 0.3rem 0.6rem;
+            color: #aaa;
+        }
 
-.membersGroup-2eiWxl .roleIcon-2cey4v {
-    margin: 0px 4px;
-    height: 32px;
-}
+        .membersGroup-2eiWxl .roleIcon-2cey4v {
+            margin: 0 0.2rem 0 0;
+            padding: 0.2rem;
+            height: 0.85rem;
+        }
 
+    /* Member Item --------------------------------------------------------------------------------------- */
 
-/* Member Item --------------------------------------------------------------------------------------- */
+        .member-2gU6Ar {
+            height: 44px;
+            padding: 0;
+            margin: 0 8px;
+            max-width: unset;
+        }
+        
+        .member-2gU6Ar .layout-1qmrhw {
+            height: 44px;
+            padding: 0;
+            border-radius: 0;
+        }
+        
+        .member-2gU6Ar .layout-1qmrhw:hover {
+            background: transparent;
+        }
 
-.member-2gU6Ar {
-    height: 44px;
-    padding: 0;
-    margin: 0 8px;
-    max-width: unset;
-}
+        /* Avatar --------------------------------------------------------------------------------------- */
 
-.member-2gU6Ar .layout-1qmrhw {
-    height: 44px;
-    padding: 0;
-    border-radius: 0;
-}
+            .avatar-6qzftW {
+                margin: 0;
+                height: 44px;
+                width: 48px;
+                background: var(--Memberlist-Avatar);
+                z-index: 2;
+            }
+            
+            .avatar-6qzftW .wrapper-1VLyxH {
+                border-radius: 0;
+                margin: 0 0 0 4px;
+            }
+            
+            .avatar-6qzftW .wrapper-1VLyxH .mask-1FEkla {
+                overflow: visible;
+            }
+            
+            .avatar-6qzftW .wrapper-1VLyxH .mask-1FEkla foreignObject {
+                mask: none;
+            }
 
-.member-2gU6Ar .layout-1qmrhw:hover {
-    background: transparent;
-}
+            /* Avatar Status --------------------------------------------------------------------------------------- */
 
-/* Avatar --------------------------------------------------------------------------------------- */
+                .avatar-6qzftW foreignObject + rect {
+                    height: 44px;
+                    width: 4px;
+                    x: -8;
+                    y: -6;
+                    mask: none;
+                }
+                
+                .avatar-6qzftW foreignObject + svg {
+                    overflow: visible;
+                }
+                
+                .avatar-6qzftW foreignObject + svg rect {
+                    height: 44px;
+                    width: 4px;
+                    x: -22.5;
+                    y: -23;
+                    mask: none;
+                }
+                
+            /* Typing Icon --------------------------------------------------------------------------------------- */
 
-.avatar-6qzftW {
-    margin: 0;
-    height: 44px;
-    width: auto;
-    background: var(--Memberlist-Avatar);
-    z-index: 2;
-}
+                .avatar-6qzftW .dots-1BwzZQ {
+                    overflow: visible;
+                }
+    
+                .avatar-6qzftW .dots-1BwzZQ g circle:nth-child(1) {
+                    cx: -10;
+                    cy: -14;
+                    r: 4;
+                }
 
-.avatar-6qzftW .wrapper-1VLyxH {
-    border-radius: 0;
-    margin: 0 6px 0 10px;
-}
+                .avatar-6qzftW .dots-1BwzZQ g circle:nth-child(2) {
+                    cx: -2;
+                    cy: 0;
+                    r: 4;
+                }
 
-.avatar-6qzftW .wrapper-1VLyxH .mask-1FEkla {
-    overflow: visible;
-}
+                .avatar-6qzftW .dots-1BwzZQ g circle:nth-child(3) {
+                    cx: 6;
+                    cy: -14;
+                    r: 4;
+                }
 
-.avatar-6qzftW .wrapper-1VLyxH .mask-1FEkla foreignObject {
-    mask: none;
-}
+            /* --------------------------------------------------------------------------------------- */
+        
+        /* Content --------------------------------------------------------------------------------------- */
 
-.avatar-6qzftW foreignObject + rect {
-    height: 44px;
-    width: 4px;
-    x: -10;
-    y: -6;
-    mask: none;
-    opacity: 0.8;
-}
+            .content-1U25dZ {
+                padding: 0 0.4rem;
+                display: flex;
+                flex-flow: row wrap;
+            }
+                
+            /* Username --------------------------------------------------------------------------------------- */
 
-.avatar-6qzftW foreignObject + svg {
-    x: 0;
-    y: 0;
-    overflow: visible;
-}
+                .content-1U25dZ .nameAndDecorators-3ERwy2 {
+                    z-index: 1;
+                    min-width: 90%;
+                    flex: 1 1 auto;
+                }
+                
+                .content-1U25dZ .nameAndDecorators-3ERwy2 .username-i5-wv- span::before {
+                    content: "";
+                    position: absolute;
+                    height: 44px;
+                    left: 6px;
+                    right: 0;
+                    top: 0;
+                    background: linear-gradient(to right, currentColor 2% 50%, transparent);
+                    opacity: 0.2;
+                    z-index: -1;
+                }
+                
+                .member-2gU6Ar:hover .username-i5-wv- span::before {
+                    opacity: 0.4;
+                }
 
-.avatar-6qzftW foreignObject + svg rect {
-    height: 44px;
-    width: 4px;
-    x: -24;
-    y: -22;
-    mask: none;
-    opacity: 0.8;
-}
+            /* Bot Tag --------------------------------------------------------------------------------------- */
 
-/* Content --------------------------------------------------------------------------------------- */
+                .content-1U25dZ .botTag-2mryIa {
+                    font-size: 0.4rem;
+                    border-radius: 4px;
+                    padding: 0 0.4rem 0 0.2rem;
+                    height: 1rem;
+                    margin: 0 0.4rem;
+                }
 
-.content-1U25dZ {
-    padding: 0 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+                .content-1U25dZ .botText-1fD6Qk {
+                    font-size: 0.6rem;
+                    line-height: normal;
+                    letter-spacing: 0.02rem;
+                    font-weight: 500;
+                }
 
-.content-1U25dZ .nameAndDecorators-3ERwy2 {
-    z-index: 1;
-    min-width: 90%;
-    flex: 1 1 auto;
-}
+                .botTag-2mryIa .botTagVerified-2KCPMa {
+                    height: 100%;
+                    width: auto;
+                    margin: 0
+                }
+                
+            /* Owner Tag --------------------------------------------------------------------------------------- */
 
-.content-1U25dZ .nameAndDecorators-3ERwy2 .botTag-2mryIa {
-    height: 12px;
-    padding: 2px 4px;
-    margin: 0 10px;
-    border-radius: 4px;
-}
+                .content-1U25dZ .ownerIcon-255uKo {
+                    margin: 0;
+                    top: unset;
+                    height: 1rem;
+                    width: auto;
+                }
 
-.content-1U25dZ .nameAndDecorators-3ERwy2 .username-i5-wv- span::before {
-    content: "";
-    position: absolute;
-    height: 44px;
-    left: 4px;
-    right: 0;
-    top: 0;
-    background: linear-gradient(to right, currentColor 2% 50%, transparent);
-    opacity: 0.2;
-    z-index: -1;
-}
+            /* Activity Text --------------------------------------------------------------------------------------- */
 
-.content-1U25dZ .subText-OGOWMj {
-    z-index: 1;
-    min-width: 60%;
-    flex: 1 1 auto;
-    margin: 0;
-}
+                .content-1U25dZ .subText-OGOWMj {
+                    z-index:  1;
+                    margin: 0;
+                }
+                
+                .content-1U25dZ .subText-OGOWMj .activity-2EQDZv {
+                    color: #bbb;
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    line-height: normal;
+                }
 
-.content-1U25dZ .subText-OGOWMj .activity-2EQDZv {
-    color: #c8c8c8;
-}
+                .content-1U25dZ .subText-OGOWMj .activityText-1rR-8O {
+                    padding: 0 0.2rem;
+                }
+            
+                .content-1U25dZ .subText-OGOWMj .activityText-1rR-8O strong {
+                    color: #eee;
+                }
 
-.member-2gU6Ar:hover .username-i5-wv- span::before {
-    opacity: 0.4;
-}
+        /* Loading --------------------------------------------------------------------------------------- */
+
+            .membersWrap-3NUR2t.hiddenMembers-8kpYM0 .members-3WRCEx {
+                background: var(--Memberlist-Background);
+            }
+
+        /* Category --------------------------------------------------------------------------------------- */
+
+            .membersWrap-3NUR2t.hiddenMembers-8kpYM0 .membersGroup-2eiWxl .memberGroupsPlaceholder-9tqX9V {
+                border-radius: 4px;
+                background: var(--Memberlist-Background);
+                height: 1rem;
+                width: 60%
+            }
+
+        /* Member Item --------------------------------------------------------------------------------------- */
+
+            /* Avatar --------------------------------------------------------------------------------------- */
+
+                .membersWrap-3NUR2t.hiddenMembers-8kpYM0 .placeholderAvatar-1qAcRZ {
+                    background: var(--Memberlist-Background);
+                    border-radius: 4px;
+                }
+
+            /* Content --------------------------------------------------------------------------------------- */
+            
+                .membersWrap-3NUR2t.hiddenMembers-8kpYM0 .placeholderUsername-3iQi_D {
+                    background: var(--Memberlist-Background);
+                    border-radius: 4px;
+                }
+
+        /* --------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------------- */
 
 /* Friends --------------------------------------------------------------------------------------- */
 
