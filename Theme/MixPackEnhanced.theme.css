@@ -5,5 +5,5 @@
   * @description A pack that combines things I've created and liked the look of. Now with automatic theme switching!
 */
 
-@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPack.css");
-@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPackLight.css");
+@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPackDark.css") (prefers-color-scheme: dark);
+@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPackLight.css") (prefers-color-scheme: light);
