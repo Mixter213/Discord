@@ -94,7 +94,7 @@ body {
 }
 
 
-/* Titlebar --------------------------------------------------------------------------------------- */
+    /* Titlebar --------------------------------------------------------------------------------------- */
 
 .titleBar-1it3bQ::before {
   content: "MixPack";
@@ -110,7 +110,7 @@ body {
   display: none;
 }
 
-/* Guild --------------------------------------------------------------------------------------- */
+    /* Guild --------------------------------------------------------------------------------------- */
 
 .guilds-2JjMmN {
   --text-normal: var(--interactive-normal);
@@ -154,7 +154,7 @@ body {
   border-radius: 4px;
 }
 
-/* Sidebar --------------------------------------------------------------------------------------- */
+    /* Sidebar --------------------------------------------------------------------------------------- */
 
 #app-mount .sidebar-1tnWFu {
   border-radius: 0;
@@ -184,7 +184,7 @@ body {
   border: none;
 }
 
-/* Categories --------------------------------------------------------------------------------------- */
+    /* Categories --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .containerDefault-3TQ5YN,
 .sidebar-1tnWFu .containerDragAfter-1J_-1V,
@@ -251,7 +251,7 @@ body {
   padding: 4px 10px;
 }
 
-/* Channel Item --------------------------------------------------------------------------------------- */
+    /* Channel Item --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .wrapper-NhbLHG {
   padding: 2px;
@@ -350,7 +350,7 @@ body {
   padding: 2px 6px 2px 10px;
 }
 
-/* Channel Item - Background --------------------------------------------------------------------------------------- */
+    /* Channel Item - Background --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .wrapper-NhbLHG.modeMuted-2T4MDZ {
   --Sidebar-Channel-Color: #666;
@@ -419,7 +419,7 @@ body {
   padding-left: 2rem;
 }
 
-/* Channel Item - Voice Chat --------------------------------------------------------------------------------------- */
+    /* Channel Item - Voice Chat --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .list-2x9Cl9 {
   padding: 4px 10px;
@@ -479,7 +479,7 @@ body {
   border-radius: 2px;
 }
 
-/* Bottom Panel --------------------------------------------------------------------------------------- */
+    /* Bottom Panel --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .panels-3wFtMD {
   background: transparent;
@@ -538,7 +538,7 @@ body {
   border-radius: 0;
 }
 
-/* Bottom Panel - Connection Panel --------------------------------------------------------------------------------------- */
+    /* Bottom Panel - Connection Panel --------------------------------------------------------------------------------------- */
 
 .sidebar-1tnWFu .panels-3wFtMD .container-1zzFcN {
   border: none;
@@ -574,7 +574,7 @@ body {
   mask: none;
 }
 
-/* Sub Titlebar --------------------------------------------------------------------------------------- */
+    /* Sub Titlebar --------------------------------------------------------------------------------------- */
 
 #app-mount .title-31SJ6t {
   background: var(--Memberlist-Background);
@@ -588,7 +588,7 @@ body {
   background: rgba(var(--Mix-Interactive-BG), 0.3);
 }
 
-/* Chat  --------------------------------------------------------------------------------------- */
+    /* Chat  --------------------------------------------------------------------------------------- */
 
 .content-1jQy2l::before {
   display: none;
@@ -674,7 +674,7 @@ body {
   border-radius: 4px;
 }
 
-/* Memberlist --------------------------------------------------------------------------------------- */
+    /* Memberlist --------------------------------------------------------------------------------------- */
 
 .container-2o3qEW {
   background: transparent;
@@ -954,7 +954,7 @@ background: transparent;
   background: transparent;
 }
 
-/* Friends List --------------------------------------------------------------------------------------- */
+    /* Friends List --------------------------------------------------------------------------------------- */
 
 #app-mount .container-2cd8Mz {
   background: var(--Memberlist-Background);
@@ -985,7 +985,7 @@ background: transparent;
   display: none;
 }
 
-/* Store Page --------------------------------------------------------------------------------------- */
+    /* Store Page --------------------------------------------------------------------------------------- */
 
 .applicationStore-2nk7Lo {
   background: transparent;
@@ -1177,7 +1177,7 @@ background: transparent;
   border-image: linear-gradient(to right, transparent 50%, rgba(200, 50, 50, 0.4)) 1/2px;
 }
 
-/* Search Popout --------------------------------------------------------------------------------------- */
+    /* Search Popout --------------------------------------------------------------------------------------- */
 
 .option-ayUoaq:after {
   display: none;
@@ -1197,7 +1197,7 @@ background: transparent;
   background: transparent;
 }
 
-/* Memberlist UserPopout --------------------------------------------------------------------------------------- */
+    /* Memberlist UserPopout --------------------------------------------------------------------------------------- */
 
 .userPopout-2j1gM4 {
   background: rgba(var(--Mix-Primary), 0.9);
@@ -1211,7 +1211,7 @@ background: transparent;
   background: transparent;
 }
 
-/* Emoji --------------------------------------------------------------------------------------- */
+    /* Emoji --------------------------------------------------------------------------------------- */
 
 .contentWrapper-3vHNP2 {
   --background-secondary: rgba(var(--Mix-Primary), .9);
@@ -1223,7 +1223,7 @@ background: transparent;
   background: var(--background-modifier-hover);
 }
 
-/* Chat Autocomplete --------------------------------------------------------------------------------------- */
+    /* Chat Autocomplete --------------------------------------------------------------------------------------- */
 
 #app-mount .autocomplete-3NRXG8 {
   background: rgba(var(--Mix-Primary), 0.9);
@@ -1233,13 +1233,13 @@ background: transparent;
   background: var(--background-modifier-hover);
 }
 
-/* Status Popout --------------------------------------------------------------------------------------- */
+    /* Status Popout --------------------------------------------------------------------------------------- */
 
 #status-picker .description-3Cwkxk {
   display: none;
 }
 
-/* Invite Friends Popout --------------------------------------------------------------------------------------- */
+    /* Invite Friends Popout --------------------------------------------------------------------------------------- */
 
 .wrapper-3ByaVZ .footer-1hTRRZ {
   background: var(--background-secondary);
