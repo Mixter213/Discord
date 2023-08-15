@@ -1,0 +1,9 @@
+/**
+  * @author Mixter213
+  * @name MixPack
+  * @version 1.0
+  * @description A pack that combines things I've created and liked the look of.
+*/
+
+@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPackDark.css") (prefers-color-scheme: dark);
+@import url("https://raw.githubusercontent.com/TonyGamer/Discord/master/Code/MixPackLight.css") (prefers-color-scheme: light);
