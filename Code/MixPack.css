@@ -760,7 +760,7 @@ body {
   transform: unset !important;
   z-index: 1;
 }
-.layer__2efaa :not(.baseLayer__8fda3) {
+.layer__2efaa {
   z-index: 2;
 }
 #app-mount .standardSidebarView__1129a {
